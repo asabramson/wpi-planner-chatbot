@@ -1,0 +1,22 @@
+{
+    "CS1101": {
+        "level": "undergraduate",
+        "title": "Introduction to Programming",
+        "discipline": "CS",
+        "description": "This is an introcutory ...",
+        "sections": [
+            {"term": "A", "time": "M-T-R-F | 9:00 - 9:50", "enrolled_capacity": "9/50", "instructor": "Aaron Abramson"},
+            {"term": "C", "time": "T-F | 3:00 - 4:50", "enrolled_capacity": "22/50", "instructor": "Matthew Ahrens"}
+        ]
+    },
+    "CS2102": {
+        "level": "undergraduate",
+        "title": "Object Oriented",
+        "discipline": "CS",
+        "description": "This is an introcutory OOP course ...",
+        "sections": [
+            {"term": "B", "time": "M-T-R-F | 9:00 - 9:50", "enrolled_capacity": "9/50", "instructor": "Aaron Abramson"},
+            {"term": "D", "time": "T-F | 3:00 - 4:50", "enrolled_capacity": "22/50", "instructor": "Matthew Ahrens"}
+        ]
+    }
+}
