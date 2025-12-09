@@ -3239,6 +3239,7 @@
             "title": "Introduction To Biology",
             "discipline": "BB",
             "description": "BB 1001. Introduction to Biology (Cat. I; 1\\3 unit) This course is designed for students seeking a broad overview of biologic concepts, especially at the cell and organism level. It is conducted in an active style including the use of case studies, class discussion\\participation, and classroom polling systems. The major goal of this course is to help students become more informed citizens, skeptical when presented with data in the media, and knowledgeable enough to question and make informed decisions about scientific advances and science policy. It will primarily focus on current topics which may include genetic engineering, viruses and vaccines, antibiotic resistant bacteria, the evolution of infectious diseases. This course is intended for non-life science majors. Recommended background: High School Biology",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall B": [
                     {
@@ -5403,6 +5404,7 @@
             "title": "Introduction To Programming In Matlab",
             "discipline": "BME",
             "description": "Cat. I This course will introduce basic and essential programming skills in modern engineering program language, Matlab, to all BME students. The course will include basic programming syntax, control structures, data structures (vectors, matrices, structures, cell arrays), 2D images, 3D image volumes, string manipulations, File I\\O, figure plotting\\visualization, image display, and basic graphical user interface (GUI) design. Recommended background: none. NOTE: The course does not count for engineering credits, but will fulfill the computer programming requirement for BME students.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall B": [
                     {
@@ -12637,6 +12639,7 @@
             "title": "Elementary Chinese I",
             "discipline": "CN",
             "description": "CN 1541 Elementary Chinese I (1\\3 unit; Cat. I) An intensive course to introduce Mandarin Chinese to students with no or little background in Chinese. Pronunciation, basic grammar rules, and character recognition will be the emphasis of the course. Major aspects of Chinese culture will be introduced throughout the course. Students who have previous Chinese language background should have a placement evaluation with the coordinator of the Chinese track before enrolling in Elementary Chinese I. This course is closed to native speakers of Chinese and heritage speakers, except with written permission from the coordinator of the Chinese track.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall A": [
                     {
@@ -12991,6 +12994,7 @@
             "title": "Introduction To Programming For Non-Majors",
             "discipline": "CS",
             "description": "Cat. I This course introduces students to the fundamental principles of programming in imperative and scripting languages. Topics include control structures, iterators, functional decomposition, basic data structures (such as records). Students will be expected to implement, test and debug programs. Through the use of compelling applications and lab exercises, students will learn how to interface with external data systems and control devices. Recommended background: none. All Computer Science students and other students wishing to prepare for 3000-level courses in Computer Science should take CS 1101\\1102 instead of CS 1004. This course provides sufficient background for CS 2301 Systems Programming for Non-Majors. Undergraduate credit may not be earned both for this course and for CS 1005.",
+            "keywords" : ["introductory", "non-majors"],
             "sections": {
                 "Spring C": [
                     {
@@ -13135,6 +13139,7 @@
             "title": "Programming for Engineers",
             "discipline": "CS",
             "description": "This course introduces students to the fundamental principles of programming as it applies to engineering and robotic applications. Topics include data structures, control flow, modularization, state machines, and event-based input\\output. Students will be expected to implement, test, and debug programs and apply them to control devices and microcontrollers. Special focus will be given to writing efficient and reusable code. This course provides appropriate programming background for RBE 1001. Undergraduate credit may not be earned for both this course and CS 1004. Undergraduate credit may not be earned for both this course and RBE 100X.",
+            "keywords" : ["introductory", "non-majors"],
             "sections": {
                 "Fall A": [
                     {
@@ -13240,6 +13245,7 @@
             "discipline": "CS",
             "description": "This course introduces principles of computation and programming with an emphasis on program design. Topics include the design, implementation, and testing of programs that use a variety of data structures (such as structures, lists, and trees), functions, conditionals, recursion, and higher-order functions. Students will be expected to design simple data models, and implement and debug programs in a functional programming language. Recommended background: none. Either CS 1101 or CS 1102 provides sufficient background for further courses in the CS department. Undergraduate credit may not be earned for both this course and CS 1102.",
             "notes" : "Introductory CS course, if the student has AP credit for AP Computer Science A, they can receive credit for this course. If the student has experience with programming, it may be smart to skip this course and save the credit for one where they will learn something new.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall A": [
                     {
@@ -13573,6 +13579,7 @@
             "discipline": "CS",
             "description": "In the first half of the term, this course covers the same functional programming material as CS 1101 at roughly twice the pace. The second half of the term is a preview of selected advanced Computer Science topics, such as the design and implementation of application-specific languages, macros, programming with the HTTP protocol and continuation-passing style. Students will be expected to complete an open-ended individual programming project. Recommended background: Substantial prior programming experience (including functions, recursion, and lists, as would be covered in high-school Advanced Placement Computer Science A courses, but not necessarily AP CS Principles courses). Either CS 1101 or CS 1102 provides sufficient background for further courses in the CS department. Undergraduate credit may not be earned for both this course and CS 1101.",
             "notes" : "Accelerated introductory CS course. Similar class to CS 1101, if the student has AP credit for AP Computer Science A, they can receive credit for this course. If the student has experience with programming, it may be smart to skip this course and save the credit for one where they will learn something new.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall A": [
                     {
@@ -13633,6 +13640,7 @@
             "title": "Introduction To Machine Organization And Assembly Language",
             "discipline": "CS",
             "description": "Cat. I This course introduces students to the structure and behavior of modern digital computers and the way they execute programs. Machine organization topics include the Von Neumann model of execution, functional organization of computer hardware, the memory hierarchy, caching performance, and pipelining. Assembly language topics include representations of numbers in computers, basic instruction sets, addressing modes, stacks and procedures, low-level I\\O, and the functions of compilers, assemblers, linkers, and loaders. The course also presents how code and data structures of higher-level languages are mapped into the assembly language and machine representations of a modern processor. Programming projects will be carried out in the C language and the assembly language of a modern processor. Recommended background: CS 2301 or CS 2303, or a significant knowledge of C\\C++.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall B": [
                     {
@@ -13965,6 +13973,7 @@
             "discipline": "CS",
             "description": "Cat. I This course introduces students to an object-oriented model of programming. Building from the design methodology covered in CS 1101\\CS 1102, this course shows how programs can be decomposed into classes and objects. By emphasizing design, this course shows how to implement small defect-free programs and evaluate design decisions to select an optimal design under specific assumptions. Topics include inheritance, exceptions, interface, design by contract, basic design patterns, and reuse. Students will be expected to design, implement, and debug object-oriented programs composed of multiple classes and over a variety of data structures. Recommended background: CS 1101 or CS 1102.",
             "notes" : "Introductory object oriented programming course. If you already know object oriented programming, it may be better to skip this class.",
+            "keywords" : ["introductory", "java", "object-oriented", "oop"],
             "sections": {
                 "Fall B": [
                     {
@@ -14238,6 +14247,7 @@
             "discipline": "CS",
             "description": "This course covers the data structures and general program-design material from CS 2102, but assumes that students have significant prior experience in object-oriented programming. The course covers object-oriented design principles and data structures more deeply and at a faster pace than in CS 2102. Students will be expected to design, implement, test, debug, and critique programs both for correctness and adherence to good object-oriented design principles. The course is designed to strengthen both the design skills and algorithmic thinking of students who already have a foundation in object-oriented programming. Recommended background: CS 1101 or CS 1102 and significant prior experience writing object-oriented programs from scratch. Advanced Placement Computer Science A courses should provide sufficient background; students from AP CS Principles courses or gentler introductions to Java Programming are advised to take CS 2102 instead. Students may receive credit for only one of the following three courses: CS 2102, CS 210X, CS 2103.",
             "notes" : "Accelerated introductory object oriented programming course. If you already know object oriented programming, it may be better to skip this class.",
+            "keywords" : ["introductory", "java", "object-oriented", "oop"],
             "sections": {
                 "Fall B": [
                     {
@@ -14318,6 +14328,7 @@
             "title": "Application Building With Object-Oriented Concepts",
             "discipline": "CS",
             "description": "Cat. I This course introduces students to an object-oriented model of programming, with an emphasis on the programming approaches useful in creating software applications. Students will be expected to design, implement, and debug object-oriented programs. Topics include inheritance, user interfaces, and database access. This course is for non-CS majors with prior programming experience and an interest in building software applications. Recommended background: Some programming experience such as found in CS 1101, CS 1102, or CS 1004.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Spring D": [
                     {
@@ -14398,6 +14409,7 @@
             "title": "Algorithms",
             "discipline": "CS",
             "description": "Cat. I Building on a fundamental knowledge of data structures, data abstraction techniques, and mathematical tools, a number of examples of algorithm design and analysis \u2014 worst case and average case \u2014 will be developed. Topics include greedy algorithms, divide-and-conquer, dynamic programming, heuristics, and probabilistic algorithms. Problems will be drawn from areas such as sorting, graph theory, and string processing. The influence of the computational model on algorithm design will be discussed. Students will be expected to perform analysis on a variety of algorithms. Recommended background: CS 2102 or CS 2103, and CS 2022.",
+            "keywords" : ["algorithms", "data", "data structure", "abstraction"],
             "sections": {
                 "Fall A": [
                     {
@@ -14474,6 +14486,7 @@
             "title": "Systems Programming For Non-Majors",
             "discipline": "CS",
             "description": "Cat. I This course introduces the C programming language and system programming concepts to non-CS majors who need to program computers in their own fields. The course assumes that students have had previous programming experience. It quickly introduces the major concepts of the C language and covers manual memory management, pointers and basic data structures, the machine stack, and input\\output mechanisms. Students will be expected to design, implement, and debug programs in C. Recommended background: CS 1101 or CS 1102 or previous experience programming a computer. All Computer Science students and other students wishing to prepare for upper-level courses in Computer Science should take CS 2303 instead of CS 2301. Students who have credit for CS 2303 may not receive subsequent credit for CS 2301.",
+            "keywords" : ["introductory", "non-majors", "c"],
             "sections": {
                 "Fall B": [
                     {
@@ -14544,6 +14557,7 @@
             "title": "Systems Programming Concepts",
             "discipline": "CS",
             "description": "Cat. I This course introduces students to a model of programming where the programming language exposes details of how the hardware stores and executes software. Building from the design concepts covered in CS 2102, this course covers manual memory management, pointers, the machine stack, and input\\ output mechanisms. The course will involve large-scale programming exercises and will be designed to help students confront issues of safe programming with system-level constructs. The course will cover several tools that assist programmers in these tasks. Students will be expected to design, implement, and debug programs in C++ and C. The course presents the material from CS 2301 at a fast pace and also includes C++ and other advanced topics. Recommended background: CS 2102, CS 2103, or CS 2119 and\\or substantial object-oriented programming experience.",
+            "keywords" : ["introductory", "c"],
             "sections": {
                 "Fall A": [
                     {
@@ -15049,6 +15063,7 @@
             "title": "Foundations Of Computer Science",
             "discipline": "CS",
             "description": "Cat. I This course introduces the theoretical foundations of computer science. These form the basis for a more complete understanding of the proficiency in computer science. Topics include computational models, formal languages, and an introduction to compatibility and complexity theory, including NP-completeness. Students will be expected to complete a variety of exercises and proofs. Undergraduate credit may not be earned both for this course and for CS 5003. Recommended Background: Discrete mathematics (CS 2022 or equivalent) and algorithms (CS 2223 or equivalent). Students who have credit for CS 4121 may not receive credit for CS 3133.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall A": [
                     {
@@ -15105,6 +15120,7 @@
             "title": "Introduction to Security",
             "discipline": "CS",
             "description": "CS 340X Introduction to Security. Category 2. This course provides students with an introduction to security, covering both technical and social aspects. Students will develop an understanding of security that will serve as the foundation for 4K-level security-focused courses. Topics may include foundational security concepts (e.g., access control), common attacks (e.g., social engineering) and defenses, case studies of large-scale attacks and failures (e.g., Heartbleed), and security processes (e.g., software testing and vulnerability disclosure). Recommended Background: Basic knowledge of program design and programming languages. (CS 2303 or equivalent). Suggested Background: None",
+            "keywords" : ["introductory", "security"],
             "sections": {
                 "Spring C": [
                     {
@@ -15125,6 +15141,7 @@
             "title": "Database Systems I",
             "discipline": "CS",
             "description": "Cat. I This course introduces the student to the design, use, and application of database management systems. Topics include the relational data model, relational query languages, design theory, and conceptual data design and modeling for relational database design. Techniques that provide for data independence and minimal redundancy will be discussed. Students will be expected to design and implement database system applications. Undergraduate credit may not be earned both for this course and for CS 4431 or CS 542. Recommended background: CS 2022 and either CS 2102, CS 2103, or CS 2119.",
+            "keywords" : ["introductory", "data", "database", "data management", "data structure"],
             "sections": {
                 "Fall A": [
                     {
@@ -15236,6 +15253,7 @@
             "discipline": "CS",
             "description": "Cat. I This course introduces the fundamental principles of software engineering. Modern software development techniques and life cycles are emphasized. Topics include requirements analysis and specification, analysis and design, architecture, implementation, testing and quality, configuration management, and project management. Students will be expected to complete a project that employs techniques from the topics studied. This course should be taken before any course requiring a large programming project. Undergraduate credit may not be earned both for this course and for CS 509. Recommended background: CS 2102, CS 2103, or CS 2119.",
             "notes" : "Class requires a lot of time outside lecture hours to complete work. Should be taken with lighter coursework classes.",
+            "keywords" : ["web-dev", "software development"],
             "sections": {
                 "Fall B": [
                     {
@@ -15370,6 +15388,7 @@
             "title": "Numerical Methods For Linear And Nonlinear Systems",
             "discipline": "CS",
             "description": "Cat. I This course provides an introduction to modern computational methods for linear and nonlinear equations and systems and their applications. Topics covered include solution of nonlinear scalar equations, direct and iterative algorithms for the solution of systems of linear equations, solution of nonlinear systems, and the eigenvalue problem for matrices. Error analysis will be emphasized throughout. Recommended background: MA 2071. An ability to write computer programs in a scientific language is assumed.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Spring C": [
                     {
@@ -15400,6 +15419,7 @@
             "title": "Numerical Methods For Calculus And Differential Equations",
             "discipline": "CS",
             "description": "Cat. I This course provides an introduction to modern computational methods for differential and integral calculus and differential equations. Topics covered include interpolation and polynomial approximation, approximation theory, numerical differentiation and integration, and numerical solutions of ordinary differential equations. Error analysis will be emphasized throughout. Recommended background: MA 2051. An ability to write computer programs in a scientific language is assumed. Undergraduate credit may not be earned for both this course and for MA 3255\\CS 4031.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Fall B": [
                     {
@@ -15656,6 +15676,7 @@
             "title": "Introduction To Artificial Intelligence",
             "discipline": "CS",
             "description": "Cat. I This course studies the problem of making computers act in ways which we call \"intelligent\". Topics include major theories, tools and applications of artificial intelligence, aspects of knowledge representation, searching and planning, and natural language understanding. Students will be expected to complete projects which express problems that require search in state spaces, and to propose appropriate methods for solving the problems. Undergraduate credit may not be earned both for this course and for CS 534. Recommended background: CS 2102 or CS 2103; CS 2223; and CS 3133.",
+            "keywords" : ["introductory", "ai", "artificial intelligence"],
             "sections": {
                 "Fall A": [
                     {
@@ -15713,6 +15734,7 @@
             "discipline": "CS",
             "description": "Cat.I In this course, students will explore both theoretical and practical aspects of machine learning, including algorithms for regression, classification, dimensionality reduction, clustering, and density estimation. Specific topics may include neural networks and deep learning, Bayesian networks and probabilistic graphical models, principal component analysis, k-means clustering, decision trees and random forests, support vector machines, and kernel methods. Recommended background: Multivariate Calculus (MA 1024 or MA 1034), Linear Algebra (such as MA 2071), Probability (MA 2621 or MA 2631), and Algorithms (CS 2223). Students may not earn credit for both CS 453X and CS 4342. Undergraduate credit may not be earned both for this course and for CS 539.",
             "notes" : "Theory heavy class.",
+            "keywords" : ["ai", "artificial intelligence", "machine learning"],
             "sections": {
                 "Fall A": [
                     {
@@ -15769,6 +15791,7 @@
             "title": "Software Security Engineering",
             "discipline": "CS",
             "description": "Cat. I This course provides an introduction to the pitfalls and practices of building secure software applications. Topics will include threat modeling, secure software development, defensive programming, web security, and the interaction between security and usability. The course focuses on the application level with minor attention to operating-system level security; network-level security is not covered. Assignments involve designing and implementing secure software, evaluating designs and systems for security-related flaws, and presentations on security issues or tools. All students will be required to sign a pledge of responsible conduct at the start of the course. Recommended Background: CS3013 and CS3733. The course assumes nontrivial experience with C and Unix, familiarity with operating systems, filesystems, and databases, and experience with technologies for building web applications (from CS4241 or personal experience).",
+            "keywords" : ["introductory"],
             "sections": {
                 "Spring D": [
                     {
@@ -15789,6 +15812,7 @@
             "title": "Tools And Techniques In Computer Network Security",
             "discipline": "CS",
             "description": "Cat. I I This course introduces students to modern network security concepts, tools, and techniques. The course covers security threats, attacks, and mitigations at the operating-system and network levels (as opposed to the software level). Topics include authentication, authorization, confidentiality, integrity, anonymity, privacy, intrusion detection and response, and cryptographic applications. Students will become familiar with modern security protocols and tools. Assignments will involve using security-testing software to uncover vulnerabilities, network packet analyzers, and existing security applications to create secure network implementations. The course requires enough programming and systems background to understand attacks and use systems tools but does not involve significant programming projects. Assignments and projects will use a Linux base for implementation. Recommended Background: Knowledge of operating systems (CS 3013 or equivalent) and computer networks (CS 3516 or equivalent). Familiarity with Linux or Unix is essential.",
+            "keywords" : ["introductory", "security", "authentication", "authorization", "confidentiality", "integrity", "anonymity", "privacy", "intrusion detection and response", "cryptographic applications"],
             "sections": {
                 "Spring C": [
                     {
@@ -15853,6 +15877,7 @@
             "title": "Big Data Management and Analytics",
             "discipline": "CS",
             "description": "This course introduces the emerging techniques and infrastructures for big data management and analytics including parallel and distributed database systems, map-reduce, Spark, and NO-SQL infrastructures, data stream processing systems, scalable analytics and mining, and cloud-based computing. Query processing and optimization, access methods, and storage layouts developed on these infrastructures will be covered. Students are expected to engage in hands-on projects using one or more of these technologies. Recommended background: Knowledge in database systems at the level of CS4432, and programming experience are assumed.",
+            "keywords" : ["introductory"],
             "sections": {
                 "Spring C": [
                     {
@@ -15873,6 +15898,7 @@
             "title": "Data Mining And Knowledge Discovery In Databases",
             "discipline": "CS",
             "description": "Cat. I I This course provides an introduction to Knowledge Discovery in Databases (KDD) and Data Mining. KDD deals with data integration techniques and with the discovery, interpretation and visualization of patterns in large collections of data. Topics covered in this course include data warehousing and mediation techniques; data mining methods such as rule-based learning, decision trees, association rules and sequence mining; and data visualization. The work discussed originates in the fields of artificial intelligence, machine learning, statistical data analysis, data visualization, databases, and information retrieval. Several scientific and industrial applications of KDD will be studied. Recommended background: MA 2611, CS 2223, and CS 3431, or CS 3733. This course will be offered in 2019-20, and in alternating years thereafter.",
+            "keywords" : ["introductory", "discovery", "interpretation", "visualization", "database"],
             "sections": {
                 "Fall A": [
                     {
@@ -15925,6 +15951,7 @@
             "title": "Advanced Computer Networks",
             "discipline": "CS",
             "description": "Cat. I I This course provides an in-depth look into computer networks. While repeating some of the areas from CS 3516, the goal is to go deeper into computer networks topics. This in-depth treatment in topics such as routing, congestion control, wireless layer protocols, and physical signaling considerations will require the use of basic queuing theory and probability to provide a more formal treatment of computer networks performance. Other topics covered include LAN and WLAN technologies, mobile wireless networks, sensor networks, optical networks, network security, intrusion detection, and network management. Students will be expected to do more sophisticated network programming than seen in CS 3516 and will conduct laboratory activities involving measuring the performance of modern networking applications running on both wired networks and infrastructure wireless networks. Undergraduate credit may not be earned both for this course and for CS 513. Recommended background: CS 3013, CS 3516, and knowledge of probability. The course assumes a familiarity with operating systems including Unix or Linux and significant experience with C\\C++. This course will be offered in 2019-20, and in alternating years thereafter.",
+            "keywords" : ["networks", "routing", "protocols", "security"],
             "sections": {
                 "Fall A": [
                     {
@@ -16039,6 +16066,7 @@
             "title": "Introduction To Cryptography And Communication Security",
             "discipline": "CS",
             "description": "Cat. I This course provides an introduction to modern cryptography and communication security. It focuses on how cryptographic algorithms and protocols work and how to use them. The course covers the concepts of block ciphers and message authentication codes, public key encryption, digital signatures, and key establishment, as well as common examples and uses of such schemes, including the AES, RSA-OAEP, and the Digital Signature Algorithm. Basic cryptanalytic techniques and examples of practical security solutions are explored to understand how to design and evaluate modern security solutions. The course is suited for students interested in cryptography or other security related fields such as trusted computing, network and OS security, or general IT security. Recommended background: Experience in expressing algorithms in a modern programming language (e.g., ECE 2049 or CS 2301). Suggested background: Discrete mathematics (CS 2022\\MA 2201 or equivalent).",
+            "keywords" : ["introductory", "cryptography", "security", "ciphers"],
             "sections": {
                 "Spring D": [
                     {
@@ -16079,6 +16107,7 @@
             "title": "Data Visualization",
             "discipline": "CS",
             "description": "CS4804 Data Visualization Cat.II. This course trains students in data visualization, the graphical communication of data and information for presentation, confirmation, and exploration. Students learn the stages of the visualization pipeline, including data characterization, mapping data attributes to graphical attributes, user task abstraction, visual display techniques, tools, paradigms, and perceptual issues. Students evaluate the effectiveness of visualizations for specific data, task, and user types. Students implement visualization algorithms and undertake projects involving the use of commercial and public-domain visualization tools. Recommended background: CS 2102 or CS 2103, and CS 2223.",
+            "keywords" : ["data", "visualization", "information"],
             "sections": {
                 "Spring C": [
                     {
@@ -16129,6 +16158,7 @@
             "title": "Introduction To Applications Of Computer Science With Data Structures And Algorithms",
             "discipline": "CS",
             "description": "This is an introductory graduate course teaching core computer science topics typically found in an undergraduate Computer Science curriculum, but at a graduate-level pace. It is primarily intended for students with little formal preparation in Computer Science to gain experience with fundamental Computer Science topics. After a review of programming concepts the focus of the course will be on data structures from the point of view of the operations performed upon the data and to apply analysis and design techniques to non-numeric algorithms that act on data structures. The data structures covered include lists, stacks, queues, trees and graphs. Projects will focus on the writing of programs to appropriately integrate data structures and algorithms for a variety of applications. This course may not be used to satisfy degree requirements for a B.S., M.S., or Ph.D. degree in Computer Science or a minor in Computer Science. It may satisfy the requirements for other degree programs at the discretion of the program review committee for the particular degree. (Prerequisites: Experience with at least one high-level programming language such as obtained in an undergraduate programming course.)",
+            "keywords" : ["introductory", "data structures", "algorithms"],
             "sections": {
                 "Fall S": [
                     {
@@ -16307,6 +16337,7 @@
             "title": "Computer Networks",
             "discipline": "CS",
             "description": "This course provides an introduction to the theory and practice of the design of computer and communications networks, including the ISO seven-layer reference model. Analysis of network topologies and protocols, including performance analysis, is treated. Current network types including local area and wide area networks are introduced, as are evolving network technologies. The theory, design and performance of local area networks are emphasized. The course includes an introduction to queueing analysis and network programming. (Prerequisites: knowledge of the C programming language is assumed. CS 504 or equivalent background in CS 5084 or CS 584.)",
+            "keywords" : ["introductory", "networks", "protocols", "topologies"],
             "sections": {
                 "Fall S": [
                     {
@@ -16327,6 +16358,7 @@
             "title": "Numerical Methods",
             "discipline": "CS",
             "description": "This course provides an introduction to a broad range of modern numerical techniques that are widely used in computational mathematics, science, and engineering. It is suitable for both mathematics majors and students from other departments. It covers introductory-level material for subjects treated in greater depth in MA 512 and MA 514 and also topics not addressed in either of those courses. Subject areas include numerical methods for systems of linear and nonlinear equations, interpolation and approximation, differentiation and integration, and differential equations. Specific topics include basic direct and iterative methods for linear systems; classical rootfinding methods; Newton's method and related methods for nonlinear systems; fixed-point iteration; polynomial, piecewise polynomial, and spline interpolation methods; least-squares approximation; orthogonal functions and approximation; basic techniques for numerical differentiation; numerical integration, including adaptive quadrature; and methods for initial-value problems for ordinary differential equations. Additional topics may be included at the instructor's discretion as time permits. Both theory and practice are examined. Error estimates, rates of convergence, and the consequences of finite precision arithmetic are also discussed. Topics from linear algebra and elementary functional analysis will be introduced as needed. These may include norms and inner products, orthogonality and orthogonalization, operators and projections, and the concept of a function space. (Prerequisite: knowledge of undergraduate linear algebra and differential equations is assumed, as is familiarity with MATLAB or a higher-level programming language.)",
+            "keywords" : ["introductory", "computation"],
             "sections": {
                 "Fall S": [
                     {
@@ -16431,6 +16463,7 @@
             "title": "Introduction to Artificial Intelligence",
             "discipline": "CS",
             "description": "This course gives a broad survey of artificial intelligence. The course will cover methods from search, probabilistic reasoning, and learning, among other topics. Selected topics involving the applications of these tools are investigated. Such topics might include natural language understanding, scene understanding, game playing, and planning. (Prerequisites: familiarity with data structures and a high-level programming language.)",
+            "keywords" : ["ai", "artificial intelligence"],
             "sections": {
                 "Fall S": [
                     {
@@ -16493,6 +16526,7 @@
             "title": "Programming Language Design",
             "discipline": "CS",
             "description": "This course discusses the fundamental concepts and general principles underlying current programming languages and models. Topics include control and data abstractions, language processing and binding, indeterminacy and delayed evaluation, and languages and models for parallel and distributed processing. A variety of computational paradigms are discussed: functional programming, logic programming, object-oriented programming and data flow programming. (Prerequisites: student is expected to know a recursive programming language and to have an undergraduate course in data structures.)",
+            "keywords" : ["programming languages", "design", "abstraction"],
             "sections": {
                 "Spring S": [
                     {
@@ -16513,6 +16547,7 @@
             "title": "Machine Learning",
             "discipline": "CS",
             "description": "The focus of this course is machine learning for knowledge-based systems. It will include reviews of work on similarity-based learning (induction), explanation-based learning, analogical and case-based reasoning and learning, and knowledge compilation. It will also consider other approaches to automated knowledge acquisition as well as connectionist learning. (Prerequisite: CS 534 or equivalent, or permission of the instructor.)",
+            "keywords" : ["ai", "artificial intelligence", "machine learning"],
             "sections": {
                 "Fall S": [
                     {
@@ -16585,6 +16620,7 @@
             "title": "Deep Learning",
             "discipline": "CS",
             "description": "This course will offer a mathematical and practical perspective on artificial neural networks for machine learning. Students will learn about the most prominent network architectures including multilayer feedforward neural networks, convolutional neural networks (CNNs), auto-encoders, recurrent neural networks (RNNs), and generative-adversarial networks (GANs). This course will also teach students optimization and regularization techniques used to train them -- such as back-propagation, stochastic gradient descent, dropout, pooling, and batch normalization. Connections to related machine learning techniques and algorithms, such as probabilistic graphical models, will be explored. In addition to understanding the mathematics behind deep learning, students will also engage in hands-on course projects. Students will have the opportunity to train neural networks for a wide range of applications, such as object detection, facial expression recognition, handwriting analysis, and natural language processing. Prerequisite: Machine Learning (CS 539), and knowledge of Linear Algebra (such as MA 2071) and Algorithms (such as CS 2223).",
+            "keywords" : ["ai", "artificial intelligence", "neural networks", "machine learning"],
             "sections": {
                 "Fall S": [
                     {
@@ -16617,6 +16653,7 @@
             "title": "Database Management Systems",
             "discipline": "CS",
             "description": "An introduction to the theory and design of database management systems. Topics covered include internals of database management systems, fundamental concepts in database theory, and database application design and development. In particular, logical design and conceptual modeling, physical database design strategies, relational data model and query languages, query optimization, transaction management and distributed databases. Typically there are hands-on assignments and\\or a course project. Selected topics from the current database research literature may be touched upon as well. (Prerequisite: CS 5084 would be helpful.)",
+            "keywords" : ["introductory", "database", "data", "data management"],
             "sections": {
                 "Fall S": [
                     {
@@ -16833,6 +16870,7 @@
             "title": "Reinforcement Learning",
             "discipline": "CS",
             "description": "DS 551 Reinforcement Learning (3 credits) Reinforcement Learning (RL) is an area of machine learning concerned with how agents take actions in an environment with a goal of maximizing some notion of \u201ccumulative reward\u201d. The problem, due to its generality, is studied in many disciplines, and applied in many domains, including robotics and industrial automation, marketing, education and training, health and medicine, text, speech, dialog systems, finance, among many others. In this course, we will cover topics including: Markov decision processes, reinforcement learning algorithms, value function approximation, actor-critics, policy gradient methods, representations for reinforcement learning (including deep learning), and inverse reinforcement learning. The course project(s) will require the implementation and application of many of the algorithms discussed in class. Prerequisites: Machine Learning (CS 539), statistical learning at the level of DS 502\\MA 543, and programming skills at the level of CS 5007.",
+            "keywords" : ["machine learning", "ai", "artificial intelligence"],
             "sections": {
                 "Fall S": [
                     {
@@ -16853,6 +16891,7 @@
             "title": "Generative Artificial Intelligence",
             "discipline": "CS",
             "description": "CS 552 \\ DS552. Generative Artificial Intelligence (3 credits) Generative Artificial Intelligence (Gen-AI) is a class of machine learning models that generate new data (text, images, faces, voice, artwork) that is near indistinguishable from the equivalent real data typically generated by humans. These models are trained based on realistic example data sets from the real world. This course covers the underlying fundamentals of generative models. It also introduces the design and modeling of some of the modern generative models: Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), Diffusion models, ChatGPT, Large Language Models, to name a few. Several applications will be discussed, ranging from image generation for engineering or science applications to the utilization of generated data for data augmentation in AI systems. Ethical concerns related to the danger of these generative technologies concerning issues from misinformation, bias, to data ownership are reviewed. Recommended Background: Core artificial intelligence classes, such as machine learning and deep learning, or equivalent background is highly recommended.",
+            "keywords" : ["ai", "artificial intelligence", "machine learning"],
             "sections": {
                 "Fall S": [
                     {
@@ -16895,6 +16934,7 @@
             "title": "Machine Learning Development and Operations",
             "discipline": "CS",
             "description": "CS 553 \\ DS 553: Machine Learning Development and Operations (MLOps) (3 credits) This course teaches students the computational skills required in the fields of Artificial Intelligence (AI) and Data Science. As data-driven decision-making and AI applications continue to transform industries, proficiency in programming and machine learning tools is important. In this course, you will develop a strong foundation in programming languages commonly used in AI and Data Science (such as Python). This course will cover the development, debugging, deployment, and subsequent monitoring phases of models in end-to-end pipelines core to machine learning systems. You will also familiarize yourself with popular libraries, frameworks and debugging on IDEs, such as PyCharm, PyTorch, scikit-learn, and\\or pandas. Possible topics may include practice code development with a copilot as well as deployment of models on a cloud computing environment The student will engage in hands-on projects to practice their programming skills to solve realworld AI and Data Science problems. Recommended Background: Basic understanding of programming concepts, and preferably some python knowledge.",
+            "keywords" : ["ai", "artifical intelligence", "machine learning"],
             "sections": {
                 "Fall S": [
                     {
@@ -16959,6 +16999,7 @@
             "title": "Responsible Artificial Intelligence",
             "discipline": "CS",
             "description": "CS 555 \\ DS 555: Responsible Artificial Intelligence (3 credits) Artificial Intelligence (AI) algorithms have a significant impact on people's lives. In this course, we discuss social responsibility around data privacy, bias in data and decision making, policies as guardrails, fairness and transparency in the context of applying AI algorithms. Case studies considering societal challenges caused by AI technologies may include AI-based hiring recommendations stemming from societal biases present in training datasets, AI-empowered selfdriving cars behaving in a dangerous manner when encountering atypical road conditions, digital health applications inadvertently revealing private patient information, or large language models like chat-GPT generating incorrect or harmful responses. This course also studies AI-based algorithmic solutions to some of these challenges. These include the design of robust machine learning algorithms with constraints to ensure fairness, privacy, and safety. Strategies for how to apply these methods to design safe and fair AI are introduced. Topics may include min-max optimization with applications to training machine learning models robust to adversarial attacks, stochastic methods for preserving privacy of sensitive data, and multi-agent machine learning models for reducing algorithmic bias and polarization in recommender systems. Recommended Background: Machine Learning at the graduate level, undergraduate level (CS 4342), or equivalent knowledge.",
+            "keywords" : ["ai", "artificial intelligence", "ethics"],
             "sections": {
                 "Fall S": [
                     {
@@ -16979,6 +17020,7 @@
             "title": "On-Device Deep Learning",
             "discipline": "CS",
             "description": "eep Learning, a core of modern Artificial Intelligence, is rapidly expanding to resourceconstrained devices, including smartphones, wearables, and intelligent embedded systems for improving response time, privacy, and reliability. This course focuses on bringing these powerful deep-learning applications from central data centers and large GPUs to distributed ubiquitous systems. On-Device Deep Learning is an interdisciplinary topic at the intersection of artificial intelligence and ubiquitous systems, dedicated to enabling computing on edge devices. This course includes a wide range of topics related to deep learning in resource constrained settings including pruning and sparsity, quantization, neural architecture search, knowledge distillation, on-device training and transfer learning, distributed training, gradient compression, federated learning, efficient data movement and accelerator design, dynamic network inference, and advanced compression and approximation techniques for enabling on-device deep neural network inference and training. This course provides a comprehensive foundation for cutting-edge \u201ctinyML\u201d expertise. Recommended background: The students should have an introductory undergraduate-level or graduate-level introductory background in machine learning and deep neural networks.",
+            "keywords" : ["ai", "artificial intelligence"],
             "sections": {
                 "Spring S": [
                     {
@@ -16999,6 +17041,7 @@
             "title": "Software Security Design And Analysis",
             "discipline": "CS",
             "description": "Software is responsible for enforcing many central security goals in computer systems. These goals include authenticating users and other external principals, authorizing their actions, and ensuring the integrity and confidentiality of their data. This course studies how to design, implement, and analyze mechanisms to enforce these goals in both web systems and programs in traditional languages. Topics include: identifying programming choices that lead to reliable or flawed security outcomes, successful and unsuccessful strategies for incorporating cryptography into software, and analysis techniques that identify security vulnerabilities. The course will cover both practical and theoretical aspects of secure software, and will include a substantial secure software design project. (Prerequisites: Programming and software engineering experience (commensurate with an undergraduate Computer Science major), and background in foundational models of computing systems (on par with CS 5003 or CS 503).)",
+            "keywords" : ["security", "software security", "cybersecurity"],
             "sections": {
                 "Fall S": [
                     {
@@ -17019,6 +17062,7 @@
             "title": "Computer Network Security",
             "discipline": "CS",
             "description": "This course covers core security threats and mitigations at the network level. Topics include: denial-of-service, network capabilities, intrusion detection and prevention systems, worms, botnets, Web attacks, anonymity, honeypots, cybercrime (such as phishing), and legality and ethics. The course prepares students to think broadly and concretely about network security; it is not designed to teach students low-level tools for monitoring or maintaining system security. Assignments and projects will assess each student's ability to think both conceptually and practically about network security. (Prerequisites: a strong background in computer networking and systems, either at the undergraduate or graduate level, and moderate programming experience.)",
+            "keywords" : ["security", "network security", "cybersecurity", "ddos", "denial of service"],
             "sections": {
                 "Spring S": [
                     {
@@ -17081,6 +17125,7 @@
             "title": "Artificial Intelligence For Adaptive Educational Technology",
             "discipline": "CS",
             "description": "Students will learn how to enable educational technology to adapt to the user and about typical architectures used by existing intelligent tutoring systems for adapting to users. Students will see applications of decision theoretic systems, reinforcement learning, Markov models for action selection, and Artificial Intelligence (AI) planning. Students will read papers that apply AI techniques for the purpose of adapting to users. Students will complete a project that applies these techniques to build an adaptive educational system. (Prerequisites: CS 534 Artificial Intelligence or permission of the instructor.)",
+            "keywords" : ["ai", "artificial intelligence"],
             "sections": {
                 "Fall S": [
                     {
@@ -17101,6 +17146,7 @@
             "title": "Case Studies In Computer Security",
             "discipline": "CS",
             "description": "This course examines security challenges and failures holistically, taking into account technical concerns, human behavior, and business decisions. Using a series of detailed case studies, students will explore the interplay among these dimensions in creating secure computing systems and infrastructure. Students will also apply lessons from the case studies to emerging secure-systems design problems. The course requires active participation in class discussions, presentations, and writing assignments. It does not involve programming, but assumes that students have substantial prior experience with security protocols, attacks, and mitigations at the implementation level. This course satisfies the behavioral component of the MS specialization in computer security. (Prerequisites: A prior course or equivalent experience in technical aspects of computer security, at either the software or systems level.)",
+            "keywords" : ["security"],
             "sections": {
                 "Spring S": [
                     {
@@ -17121,6 +17167,7 @@
             "title": "Data Visualization",
             "discipline": "CS",
             "description": "This course exposes students to the field of data visualization, i.e., the graphical communication of data and information for the purposes of presentation, confirmation, and exploration. The course introduces the stages of the visualization pipeline. This includes data modeling, mapping data attributes to graphical attributes, visual display techniques, tools, paradigms, and perceptual issues. Students learn to evaluate the effectiveness of visualizations for specific data, task, and user types. Students implement visualization algorithms and undertake projects involving the use of commercial and public-domain visualization tools. Students also read papers from the current visualization literature and do classroom presentations. Prerequisite: a graduate or undergraduate course in computer graphics.",
+            "keywords" : ["visualization", "data"],
             "sections": {
                 "Fall S": [
                     {
@@ -17153,6 +17200,7 @@
             "title": "Advanced Computer And Communications Networks",
             "discipline": "CS",
             "description": "This course covers advanced topics in the theory, design and performance of computer and communications networks. Topics will be selected from such areas as local area networks, metropolitan area networks, wide area networks, queueing models of networks, routing, flow control, new technologies and protocol standards. The current literature will be used to study new networks concepts and emerging technologies. (Prerequisite: CS 533\\ECE 581 and either CS 513 or ECE 506)",
+            "keywords" : ["networks"],
             "sections": {
                 "Fall S": [
                     {
@@ -17173,6 +17221,7 @@
             "title": "Cryptography And Data Security",
             "discipline": "CS",
             "description": "This course gives a comprehensive introduction to the field of cryptography and data security. The course begins with the introduction of the concepts of data security, where classical algorithms serve as an example. Different attacks on cryptographic systems are classified. Some pseudo-random generators are introduced. The concepts of public and private key cryptography are developed. As important representatives for secret key schemes, DES and IDEA are described. The public key schemes RSA and ElGamal, and systems based on elliptic curves are then developed. Signature algorithms, hash functions, key distribution and identification schemes are treated as advanced topics. Some advanced mathematical algorithms for attacking cryptographic schemes are discussed. Application examples will include a protocol for security in a LAN and a secure smart card system for electronic banking. Special consideration will be given to schemes which are relevant for network environments. For all schemes, implementation aspects and up-to-date security estimations will be discussed. (Prerequisites: Working knowledge of C; an interest in discrete mathematics and algorithms is highly desirable. Students interested in a further study of the underlying mathematics may register for MA 4891 [B term], where topics in modern algebra relevant to cryptography will be treated.)",
+            "keywords" : ["data", "security", "cryptography"],
             "sections": {
                 "Fall S": [
                     {
@@ -17253,6 +17302,7 @@
             "title": "Big Data Management",
             "discipline": "CS",
             "description": "Big Data Management deals with emerging applications in science and engineering disciplines that generate and collect data at unprecedented speed, scale, and complexity that need to be managed and analyzed efficiently. This course introduces the latest techniques and infrastructures developed for big data management including parallel and distributed database systems, map-reduce infrastructures, scalable platforms for complex data types, stream processing systems, and cloud-based computing. Query processing, optimization, access methods, storage layouts, and energy management techniques developed on these infrastructures will be covered. Students are expected to engage in hands-on projects using one or more of these technologies. Prerequisites: A beginning course in databases at the level of CS 4432 or equivalent knowledge, and programming experience.",
+            "keywords" : ["data", "data management", "data structure"],
             "sections": {
                 "Spring S": [
                     {
@@ -17283,6 +17333,7 @@
             "title": "Big Data Analytics",
             "discipline": "CS",
             "description": "Big Data Analytics addresses the obstacle that innovation and discoveries are no longer hindered by the ability to collect data, but by the ability to summarize, analyze, and discover knowledge from the collected data in a scalable fashion. This course covers computational techniques and algorithms for analyzing and mining patterns in large-scale datasets. Techniques studied address data analysis issues related to data volume (scalable and distributed analysis), data velocity (high-speed data streams), data variety (complex, heterogeneous, or unstructured data), and data veracity (data uncertainty). Techniques include mining and machine learning techniques for complex data types, and scale-up and scale-out strategies that leverage big data infrastructures. Real-world applications using these techniques, for instance social media analysis and scientific data mining, are selectively discussed. Students are expected to engage in hands-on projects using one or more of these technologies. Prerequisites: A beginning course in databases and a beginning course in data mining, or equivalent knowledge, and programming experience.",
+            "keywords" : ["data"],
             "sections": {
                 "Spring S": [
                     {
@@ -17303,6 +17354,7 @@
             "title": "Cyber Security Capstone Experience",
             "discipline": "CS",
             "description": "To reduce cyber security theory to practice, the capstone project has students apply security concepts to real-world problems. The capstone represents a substantial evaluation of the student's cyber security experience. Students are encouraged to select projects with practical experience relevant to their career goals and personal development. In the capstone, students will propose a project idea in writing with concrete milestones, receive feedback, and pursue the proposal objectives. Since cyber security is a collaborative discipline, students are encouraged to work in teams. This course is a degree requirement for the Professional Master's in Cyber Security (PM-SEC) and may not be taken before completion of 21 credits in the program. Given its particular role, this course may not be used to satisfy degree requirements for a B.S., M.S., or Ph.D. degree in Computer Science or a minor in Computer Science. Students outside the PM-SEC program must get the instructor's approval before taking this course for credit.",
+            "keywords" : ["cybersecurity", "security"],
             "sections": {
                 "Fall S": [
                     {
@@ -17367,6 +17419,7 @@
             "title": "Graduate Qualifying Project in Artificial Intelligence",
             "discipline": "CS",
             "description": "CS594\\DS594 Graduate Qualifying Project in Artificial Intelligence (3 credits) This 3-credit graduate qualifying project, typically done in teams, provides a capstone experience in applying Artificial Intelligence skills to a real-world problem. It will be carried out in cooperation with an industrial sponsor, and is approved and overseen by a core or collaborative faculty member in the Artificial Intelligence Program. This offering integrates theory and practice of Artificial Intelligence, and includes the utilization of tools and techniques acquired in the Artificial Intelligence Program to a real-world problem. In addition to a written report, this project must be presented in a formal presentation to faculty of the AI program and sponsors. Professional development skills, such as communication, teamwork, leadership, and collaboration, will be practiced. This course is a degree requirement for the Master of Science in Artificial Intelligence (MS-AI) and may not be taken before completion of 21 credits in the program. Students outside the MS-AI program must get the instructor's approval before. Prerequisite: Completion of at least 24 credits of the AI degree, or consent of the instructor. With permission of the instructor, the GQP can be taken a 2nd time for a total of 6 credits.",
+            "keywords" : ["ai", "artificial intelligence"],
             "sections": {
                 "Fall S": [
                     {
@@ -17419,6 +17472,7 @@
             "title": "Advanced Cryptography",
             "discipline": "CS",
             "description": "This course provides deeper insight into areas of cryptography which are of great practical and theoretical importance. The three areas treated are detailed analysis and the implementation of cryptoalgorithms, advanced protocols, and modern attacks against cryptographic schemes. The first part of the lecture focuses on public key algorithms, in particular ElGamal, elliptic curves and Diffie-Hellman key exchange. The underlying theory of Galois fields will be introduced. Implementation of performance security aspects of the algorithms will be looked at. The second part of the course deals with advanced protocols. New schemes for authentication, identification and zero-knowledge proof will be introduced. Some complex protocols for real-world application\u2014 such as key distribution in networks and for smart cards\u2014will be introduced and analyzed. The third part will look into state-of-the-art cryptoanalysis (i.e., ways to break cryptosystems). Brute force attacks based on special purpose machines, the baby-step giantstep and the Pohlig-Hellman algorithms will be discussed. (Prerequisites: ECE 578\\ CS 578 or equivalent background.)",
+            "keywords" : ["cryptography"],
             "sections": {
                 "Spring S": [
                     {
