@@ -1,0 +1,1002 @@
+[
+  {
+  "instruction": "When should I take CS 2303 if I'm a BS in CS major?",
+  "input": "get_info(courses = [\"CS 2303\"], degree = \"BS_CS\")",
+  "output": "CS 2303: Systems Programming is a foundational course typically taken in your sophomore year (second year). Since it often serves as a prerequisite or recommended background for many upper-level courses (3000 and 4000 level), finishing it by the end of your sophomore year is highly recommended for timely progress."
+  },
+  {
+  "instruction": "Is taking CS 4804 and CS 3013 at the same time a reasonable course load for a D-term?",
+  "input": "get_info(courses = [\"CS 4804\", \"CS 3013\"], degree = \"\")",
+  "output": "CS 4804 (Data Visualization) and CS 3013 (Operating Systems) are both demanding, project-heavy courses. Taking them simultaneously, even with just one other course (a standard load), would be challenging. It's not recommended to pair them unless you are comfortable with a very heavy workload in that term. Consider taking only one along with lighter general education requirements."
+  },
+  {
+  "instruction": "I'm planning to take ID 2050 in C-term. When can I complete my IQP?",
+  "input": "get_info(courses = [\"ID 2050\"], degree = \"\")",
+  "output": "If you take ID 2050 (IQP Prep) in C-term, you would plan to complete your full-time IQP in D-term. Remember that during C-term, you cannot overload and take 4 classes while taking ID 2050."
+  },
+  {
+  "instruction": "What are the recommended background courses for CS 4731?",
+  "input": "get_info(courses = [\"CS 4731\"], degree = \"\")",
+  "output": "CS 4731: Computer Graphics typically recommends having a strong foundation in algorithms (CS 2223), linear algebra (MA 2071), and CS 2303 (Systems Programming) or an equivalent course that covers C/C++ programming."
+  },
+  {
+  "instruction": "Is CS 509 offered in the Fall or Spring semester?",
+  "input": "get_info(courses = [\"CS 509\"], degree = \"\")",
+  "output": "CS 509: Design Of Software Systems is generally offered in the Fall (F) semester and Spring (S) semester. It is a core graduate course, so it usually runs every year in both semesters, but always check the official course schedule for the specific academic year."
+  },
+  {
+  "instruction": "What's the best order to take CS 2011, CS 3516, and CS 4241?",
+  "input": "get_info(courses = [\"CS 2011\", \"CS 3516\", \"CS 4241\"], degree = \"\")",
+  "output": "These courses should be taken in the following order: CS 2011 (Introduction To Machine Organization And Assembly Language), then CS 3516 (Computer Networks), and finally CS 4241 (Webware: Computational Technology For Network Information Systems). CS 2201 is foundational for systems, and CS 3043/4241 are typically taken later."
+  },
+  {
+  "instruction": "I am a BS in DS student. Is DS 4635 relevant to my degree requirements?",
+  "input": "get_info(courses = [\"DS 4635\"], degree = \"BS_DS\")",
+  "output": "Yes, DS 4635: Data Analytics And Statistical Learning is a 4000-level Data Science course and would generally count as a Data Science Elective toward your Bachelor of Science degree in Data Science."
+  },
+  {
+  "instruction": "Can I take CS 502 and CS 542 in the same semester?",
+  "input": "get_info(courses = [\"CS 502\", \"CS 542\"], degree = \"\")",
+  "output": "Yes, you can take CS 502 (Operating Systems) and CS 540 (Database Management Systems) in the same semester. They are both core graduate courses, and while demanding, taking two core classes in a standard three-course graduate load is common."
+  },
+  {
+  "instruction": "What are the requirements for starting the HUA project?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "To start your Humanities and Arts (HUA) project, you must first complete 5 HUA courses: 3 courses in your chosen 'depth' department, 1 course in a different 'breadth' department, and 1 additional HUA course from any department."
+  },
+  {
+  "instruction": "I'm a graduate student in Data Science. Is DS 4635 relevant to my degree?",
+  "input": "get_info(courses = [\"DS 4635\"], degree = \"MS_DS\")",
+  "output": "DS 4635 is an undergraduate-level course (4000-level). While it might be relevant to your interests, it generally won't count as a core or elective course toward your MS in Data Science. You should be looking for 500-level courses (e.g., DS 501) or higher for graduate credit."
+  },
+  {
+  "instruction": "Is it possible to complete the MQP in one term instead of over multiple terms?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, it is possible to complete the Major Qualifying Project (MQP) in one term. If you choose this path, the MQP is treated as equivalent to 3 or 4 classes for that term, meaning you would likely take only the MQP."
+  },
+  {
+  "instruction": "If I am a BS in Data Science student, when should I take DS 1010?",
+  "input": "get_info(courses = [\"DS 1010\"], degree = \"BS_DS\")",
+  "output": "DS 1010: Introduction to Data Science is a first-year foundational course. It is highly recommended to take it in your first year (Freshman year), likely in A or B term, as it introduces concepts and tools used throughout the rest of the DS curriculum."
+  },
+  {
+  "instruction": "I want to overload and take 4 classes. Can I do this during A term if I'm taking ID 2050?",
+  "input": "get_info(courses = [\"ID 2050\"], degree = \"\")",
+  "output": "No, if you are taking the IQP preparation course ID 2050, you are not allowed to overload and take four classes in that term. The difficulty of ID 2050 requires a standard three-course load."
+  },
+  {
+  "instruction": "Is CS 4233 offered in C-term?",
+  "input": "get_info(courses = [\"CS 4233\"], degree = \"\")",
+  "output": "CS 4233: Object-Oriented Analysis And Design is typically offered in the C-term every year. Check the course history for the most accurate scheduling, but C-term is a reliable time for it."
+  },
+  {
+  "instruction": "I'm pursuing the BS+MS in CS. Do I need to take the IQP?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "The BS portion of the BS+MS degree requires the successful completion of the Interactive Qualifying Project (IQP). You must complete it just like any other undergraduate student, generally before your final year of the combined program."
+  },
+  {
+  "instruction": "I am a graduate student. Is it reasonable to take 4 courses in one semester?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "Graduate students typically take 3 courses per semester. Taking 4 graduate-level courses (an overload) is possible but very demanding. It's generally only reasonable if at least one of the courses is a lighter seminar or if you have a high comfort level with the material."
+  },
+  {
+  "instruction": "What are the prerequisites for DS 502?",
+  "input": "get_info(courses = [\"DS 502\"], degree = \"\")",
+  "output": "DS 502: Statistical Methods for Data Science has prerequisites that include a strong background in probability and statistics, typically satisfied by courses like MA 517: Introductory Statistical Methods for Machine Learning and undergraduate coursework in statistics and linear algebra."
+  },
+  {
+  "instruction": "I'm doing a multiple-term IQP. Do I still need to take ID 2050?",
+  "input": "get_info(courses = [\"ID 2050\"], degree = \"\")",
+  "output": "No, if you are completing the IQP over multiple terms (generally 3 terms), you are not required to take ID 2050 (IQP Prep) in the term prior. This preparatory course is only for the intensive one-term IQP completion."
+  },
+  {
+  "instruction": "Is there a recommended background for CS 3733?",
+  "input": "get_info(courses = [\"CS 3733\"], degree = \"\")",
+  "output": "For CS 3733: Software Engineering, the primary recommended background is CS 2119 (Application Building With Object-Oriented Concepts), or another similar 2000-level CS course in object-oriented design, such as CS 2102 or CS 2103."
+  },
+  {
+  "instruction": "Can I take CS 4000-level courses as an BS+MS in CS student for graduate credit?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "Yes, you can often take 4000-level courses for graduate credit, usually referred to as '4000-level with graduate requirements.' This typically requires extra assignments, projects, or higher expectations to differentiate the graduate experience from the undergraduate one. The specific course must be approved for this option."
+  },
+  {
+  "instruction": "What is the HUA depth requirement for a BS in CS student?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The HUA 'depth' is not defined by your BS in CS major. It is your choice of an HUA department (e.g., Music, History, Literature) in which you take 3 courses and conduct your HUA project research."
+  },
+  {
+  "instruction": "When does CS 1101 usually occur?",
+  "input": "get_info(courses = [\"CS 1101\"], degree = \"BS_CS\")",
+  "output": "CS 1101: Introduction to Program Design is a high-demand, entry-level course. It is generally offered in two undergraduate terms (A and C) to accommodate first-year students and others taking it later."
+  },
+  {
+  "instruction": "I'm a BS in DS major. Should I take CS 2303 before or after CS 3431?",
+  "input": "get_info(courses = [\"CS 2303\", \"CS 3431\"], degree = \"BS_DS\")",
+  "output": "You should generally take CS 2303 (Systems Programming) before or concurrently with CS 3431 (Database Systems I). CS 2303 provides essential lower-level programming knowledge that is highly beneficial when working with data management systems."
+  },
+  {
+  "instruction": "What is the difficulty of a one-term MQP?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "A Major Qualifying Project (MQP) completed in one term is considered to be the difficulty equivalent of 3 or 4 standard courses. This is why students attempting a one-term MQP usually take no other courses concurrently."
+  },
+  {
+  "instruction": "When are 500-level courses offered for graduate students?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Graduate 500-level courses are generally offered in the Fall (F) and Spring (S) semesters. However, many introductory 500-level courses (like CS 501 or CS 502) may be offered in both semesters, while more specialized courses may only be offered once per year."
+  },
+  {
+  "instruction": "I'm a BS+MS student. Is my MQP different from a regular BS student's MQP?",
+  "input": "get_info(courses = [], degree = \"BS+MS_DS\")",
+  "output": "While the project structure is similar, a BS+MS student's Major Qualifying Project (MQP) often has a higher expectation of depth and scope to potentially align with the thesis requirements or advanced research of a Master's degree. Discuss this with your advisor and MQP sponsor."
+  },
+  {
+  "instruction": "Do I need any background for CS 4120?",
+  "input": "get_info(courses = [\"CS 4120\"], degree = \"\")",
+  "output": "CS 4120: Analysis Of Algorithms has no formal prerequisites, but the recommended background is CS 2223 (Algorithms) as well as some knowledge of probability."
+  },
+  {
+  "instruction": "Can I take both CS 584 and CS 503 in the same semester?",
+  "input": "get_info(courses = [\"CS 584\", \"CS 503\"], degree = \"\")",
+  "output": "Taking both CS 584 (Algorithms: Design And Analysis) and CS 503 (Foundations of Computer Science) in the same semester is very demanding as they are both core, theoretical, and challenging courses. While possible, it's generally advised to spread them out if possible."
+  },
+  {
+  "instruction": "Is the HUA project a requirement for my BS in Data Science degree?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Yes, the Humanities and Arts (HUA) project is one of the three required major projects (HUA, IQP, MQP) that all WPI undergraduate students, including BS in Data Science majors, must complete to graduate."
+  },
+  {
+  "instruction": "What is the course number structure for undergraduate courses?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Undergraduate course numbers are structured as [2 to 4 letters] [4 digit integer]. The letters represent the department (e.g., CS, DS, MA) and the four digits denote the course level (1000-level is introductory, 4000-level is advanced undergraduate)."
+  },
+  {
+  "instruction": "When should an MS in Data Science student consider completing a thesis versus a non-thesis option?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "An MS in Data Science student should consider a thesis option if they are interested in advanced research or plan to pursue a Ph.D. The non-thesis option is better for those focused on a more coursework-intensive route to industry practice."
+  },
+  {
+  "instruction": "Is CS 4801 offered in B term?",
+  "input": "get_info(courses = [\"CS 4801\"], degree = \"BS_CS\")",
+  "output": "CS 4801: Introduction to Cryptography and Communication Security is a popular elective that is generally offered in D-term. However, always check the official catalog for the specific year."
+  },
+  {
+  "instruction": "What is the course number structure for graduate courses?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Graduate course numbers are structured as [2 to 4 letters] [3 digit integer]. The letters represent the department (e.g., CS, DS) and the three digits denote the course level (e.g., 500-level is graduate, often 600-level for advanced topics/seminars)."
+  },
+  {
+  "instruction": "What is the HUA breadth requirement?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The HUA 'breadth' requirement is one course taken in an HUA department that is different from the department you chose for your HUA 'depth' (where you take 3 courses)."
+  },
+  {
+  "instruction": "I'm interested in machine learning. What courses should I take after CS 4342?",
+  "input": "get_info(courses = [\"CS 4342\"], degree = \"\")",
+  "output": "After CS 4342 (Machine Learning), you could pursue classes like CS 4341 (Introduction To Artificial Intelligence) or DS 5002 (Introductory Statistical Methods for Machine Learning) for undergraduates, or look into the 500-level sequence (like DS 553) if you are in the BS+MS program."
+  },
+  {
+  "instruction": "Do I need to take the IQP if I'm getting a Master of Science in Computer Science?",
+  "input": "get_info(courses = [], degree = \"MS_CS\")",
+  "output": "No, the Interactive Qualifying Project (IQP) is a requirement for the undergraduate Bachelor of Science degree. Since the MS in Computer Science is a graduate-level degree, it does not require the IQP."
+  },
+  {
+  "instruction": "How many courses should an undergraduate student take per term?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "WPI's standard undergraduate course load is 3 courses per term (A, B, C, and D term). Students have the option to 'overload' and take 4 courses in a term, but this is not required."
+  },
+  {
+  "instruction": "Is CS 542 a prerequisite for CS 548?",
+  "input": "get_info(courses = [\"CS 542\", \"CS 548\"], degree = \"\")",
+  "output": "CS 542 (Database Management Systems) is generally not a formal prerequisite for CS 548 (Knowledge Discovery And Data Mining). However, a strong background in database management would be helpful."
+  },
+  {
+  "instruction": "What is the difference between the BS in CS and the BS+MS in CS?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "The BS in CS is a 4-year undergraduate degree. The BS+MS in CS is an accelerated program that typically takes 5 years and results in earning both the Bachelor of Science and the Master of Science degrees, often allowing for courses to count toward both degrees."
+  },
+  {
+  "instruction": "Can I take CS 1102 and CS 2022 at the same time?",
+  "input": "get_info(courses = [\"CS 1102\", \"CS 2022\"], degree = \"\")",
+  "output": "CS 1102 (Accelerated Introduction To Program Design) and CS 2022 (Discrete Mathematics) are foundational courses and often taken by first-year students. They are generally designed to be compatible, though the combined load can be challenging."
+  },
+  {
+  "instruction": "Is CS 3431 a good course for a BS in CS student who likes databases?",
+  "input": "get_info(courses = [\"CS 3431\"], degree = \"BS_CS\")",
+  "output": "Yes, CS 3431 (Database Systems I) covers relational databases and data management topics that are highly relevant to databases, making it a great elective for a Computer Science major interested in that area."
+  },
+  {
+  "instruction": "I need to take CS 4000-level courses for my degree. Which terms are best?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Advanced 4000-level courses are typically offered across all four terms (A, B, C, D). However, more niche electives may only run once or twice a year."
+  },
+  {
+  "instruction": "What does IQP stand for?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "IQP stands for the Interactive Qualifying Project. It's a required research project for all WPI undergraduates that focuses on the interface between technology, science, and societal needs."
+  },
+  {
+  "instruction": "How long does it generally take to complete the Master of Science in Data Science degree?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "The Master of Science (MS) in Data Science is generally completed in 2 years (four full semesters) for full-time students, though some students may take longer if they pursue a thesis or study part-time."
+  },
+  {
+  "instruction": "When should I start thinking about my MQP?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "You should start thinking about your MQP (Major Qualifying Project) in your junior year (third year). This gives you time to find a project, secure a sponsor, and begin the planning phase, especially since many MQPs span multiple terms."
+  },
+  {
+  "instruction": "What's the difference between F semester and S semester for graduate students?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The F semester (Fall) runs from approximately late August to late December, and the S semester (Spring) runs from approximately January to May. These are the two primary terms for graduate course offerings."
+  },
+  {
+  "instruction": "Do I need any math courses before taking DS 2010?",
+  "input": "get_info(courses = [\"DS 2010\"], degree = \"BS_DS\")",
+  "output": "DS 2010 (Statistical Modeling and Analysis) often expects you to have a solid background in introductory programming (CS 1101/1102) and typically recommends DS 1010 (Introduction To Data Science) alongside an applied statistics course for general technical maturity (MA 2611/2612)."
+  },
+  {
+  "instruction": "In what order should a new MS in CS student take CS 584 and CS 503?",
+  "input": "get_info(courses = [\"CS 584\", \"CS 503\"], degree = \"MS_CS\")",
+  "output": "There is no specific order that students should take CS 584 (Algorithms: Design and Analysis) and CS 503 (Foundations of CS). However, Many students take 584 and 503 in separate semesters due to their heavy workload and theoretical nature."
+  },
+  {
+  "instruction": "I'm interested in the BS+MS in Data Science. How long is that program?",
+  "input": "get_info(courses = [], degree = \"BS+MS_DS\")",
+  "output": "The Bachelor of Science and Master of Science (BS+MS) in Data Science combined degree program is generally designed to be completed in 5 years of full-time study."
+  },
+  {
+  "instruction": "Can an MS in Data Science student take CS 534?",
+  "input": "get_info(courses = [\"CS 534\"], degree = \"MS_DS\")",
+  "output": "Yes, CS 534 (Introduction to Artificial Intelligence) is an acceptable elective for the MS in Data Science degree and is highly relevant to the field. Many computing-related graduate courses from other departments can count as electives."
+  },
+  {
+  "instruction": "How many courses are undergraduate students required to take for their degree?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "WPI's undergraduate degrees require 45 courses worth of credits, but this includes the three major projects (HUA, IQP, MQP) and physical education courses. Only 37 of the these 45 courses are typical undergraduate courses."
+  },
+  {
+  "instruction": "What are the four terms in the undergraduate schedule?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate schedule is broken down into four seven-week terms: A term, B term, C term, and D term."
+  },
+  {
+  "instruction": "What is the focus of the MQP?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The Major Qualifying Project (MQP) is a research project focused on applying the technical skills and knowledge gained in your specific major (e.g., Computer Science) to solve a complex problem."
+  },
+  {
+  "instruction": "Are there prerequisites for undergraduate courses?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "WPI undergraduate courses generally have no formal prerequisites. However, they frequently have 'recommended background' courses that are strongly advised to be taken first, like CS 2303 for many upper-level courses."
+  },
+  {
+  "instruction": "Can I complete my HUA and IQP in the same term?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "You cannot complete a one-term, full-time IQP (equivalent to 3 classes) and the HUA project (equivalent to 1 class) in the same term, as this would be an unmanageable load of 4 units and the full-time IQP usually prohibits other courses."
+  },
+  {
+  "instruction": "Is CS 542 offered in the S semester?",
+  "input": "get_info(courses = [\"CS 542\"], degree = \"\")",
+  "output": "CS 542: Database Management Systems is a core graduate course and is usually offered in both the Fall (F) and Spring (S) semesters due to its high demand, but always verify the term's schedule."
+  },
+  {
+  "instruction": "What kind of project is the IQP?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The IQP (Interactive Qualifying Project) is a research project that integrates technical and social thinking, often addressing real-world problems in collaboration with groups and stakeholders outside of WPI's campus."
+  },
+  {
+  "instruction": "If I'm taking the multi-term MQP, can I take 4 courses in one of those terms?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Yes, if you are completing the MQP over multiple terms (e.g., as a 1/3 unit per term load), you are allowed to overload and take 4 classes (3 classes + MQP portion) in those terms."
+  },
+  {
+  "instruction": "Is it required to take CS 4241 for a BS in CS?",
+  "input": "get_info(courses = [\"CS 4241\"], degree = \"BS_CS\")",
+  "output": "CS 4241: Webware: Computational Technology For Network Information Systems is not a core required course for the BS in CS, but it is a popular option that counts as a technical elective."
+  },
+  {
+  "instruction": "Are there prerequisites for graduate courses?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, unlike undergraduate courses, graduate courses often have formal prerequisites. These usually include specific foundational 500-level courses or a strong background in the topic's undergraduate equivalent."
+  },
+  {
+  "instruction": "When should I take CS 2011 if I'm a BS in CS major?",
+  "input": "get_info(courses = [\"CS 2011\"], degree = \"\")",
+  "output": "CS 2011: Introduction To Machine Organization And Assembly Language is a crucial sophomore-level course, usually recommended to be taken in the first half of your sophomore year (A or B term) as it's foundational for the systems track."
+  },
+  {
+  "instruction": "What courses are recommended before taking MA 4644?",
+  "input": "get_info(courses = [\"MA 4644\"], degree = \"\")",
+  "output": "The recommended background of MA 4644: Introduction to Time Series Analysis includes a strong statistics foundation, usually satisfied by MA 2612 (Applied Statistics II), and proficiency in R or Python."
+  },
+  {
+  "instruction": "Can I take CS 542 and DS 504 in the same semester?",
+  "input": "get_info(courses = [\"CS 542\", \"DS 504\"], degree = \"MS_DS\")",
+  "output": "Yes, taking CS 542 (Database Management Systems) and DS 504 (Big Data Analytics) in the same semester is a very common and reasonable course load for a Master of Science in Data Science student."
+  },
+  {
+  "instruction": "Is CS 4731 offered in the C term?",
+  "input": "get_info(courses = [\"CS 4731\"], degree = \"\")",
+  "output": "CS 4731: Computer Graphics is a specialized course that is not offered every term, but is frequently available in C-term. You should check the schedule far in advance to plan for it."
+  },
+  {
+  "instruction": "How many courses is the MQP equivalent to if done in one term?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The MQP completed in one term is the difficulty of 3 or 4 classes, depending on the scope and credit allocation determined by the department."
+  },
+  {
+  "instruction": "What is the recommended background for CS 539?",
+  "input": "get_info(courses = [\"CS 539\"], degree = \"\")",
+  "output": "For CS 539: Machine Learning, a strong recommended background includes the equivalent of CS 534 (Introduction to Artificial Intelligence) and excellent programming skills, or explict permission from the instructor to override these prerequisites."
+  },
+  {
+  "instruction": "I'm interested in the BS in Data Science. What are the key projects I need to complete?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "As a BS in Data Science student, you must complete the three major projects: the HUA (Humanities and Arts Project), the IQP (Interactive Qualifying Project), and the MQP (Major Qualifying Project)."
+  },
+  {
+  "instruction": "When should I take CS 2102?",
+  "input": "get_info(courses = [\"CS 2102\"], degree = \"BS_CS\")",
+  "output": "CS 2102: Object-Oriented Design Concepts is a foundational course that should be taken as early as possible, ideally in your first year (Freshman year), as it introduces concepts essential for algorithms and theory courses."
+  },
+  {
+  "instruction": "How many HUA courses do I need in my depth department?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "You need to take 3 HUA courses within your chosen HUA 'depth' department before you can begin your HUA project."
+  },
+  {
+  "instruction": "Is it reasonable to take CS 4404 and CS 4731 at the same time?",
+  "input": "get_info(courses = [\"CS 4404\", \"CS 4731\"], degree = \"\")",
+  "output": "CS 4404 (Tools And Techniques In Computer Network Security) and CS 4731 (Computer Graphics) are both challenging, low-level courses. Taking them concurrently is manageable but requires significant time commitment, as both often have large programming assignments. It's an acceptable, but not easy, course pair."
+  },
+  {
+  "instruction": "Is CS 548 a core course for the MS in DS?",
+  "input": "get_info(courses = [\"CS 548\"], degree = \"MS_DS\")",
+  "output": "CS 548: Knowledge Discovery And Data Mining is generally considered one of the core foundational courses for the Master of Science in Data Science degree, covering essential topics in extracting knowledge from data."
+  },
+  {
+  "instruction": "When can I take the HUA project?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "You can take the HUA project any time after you have completed your 5 required HUA courses (3 depth, 1 breadth, 1 elective). Many students aim to finish it in their junior or senior year."
+  },
+  {
+  "instruction": "What course should I take after CS 1101 if I'm a CS major?",
+  "input": "get_info(courses = [\"CS 1101\"], degree = \"BS_CS\")",
+  "output": "After CS 1101, you should move on to CS 2102 (Object-Oriented Design Concepts), the next in the sequence of programming courses."
+  },
+  {
+  "instruction": "If I am doing the one-term IQP, am I allowed to take a 4th class?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "No, if you are completing the IQP in one term (the full-time option), you are not allowed to take any additional classes in that term, as the project is the difficulty of 3 classes."
+  },
+  {
+  "instruction": "What are the terms for graduate students?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The graduate schedule is broken down into two terms (semesters): the F semester (Fall) and the S semester (Spring)."
+  },
+  {
+  "instruction": "What's the recommended background for CS 4342?",
+  "input": "get_info(courses = [\"CS 4342\"], degree = \"\")",
+  "output": "CS 4342 (Machine Learning) recommends a background in MA 1024 (Calculus IV), MA 2071 (Linear Algebra), MA 2621 (Probability), and CS 2223 (Algorithms)."
+  },
+  {
+  "instruction": "Is CS 584 relevant to the MS in Data Science degree?",
+  "input": "get_info(courses = [\"CS 584\"], degree = \"MS_DS\")",
+  "output": "Yes, CS 584 (Algorithms: Design And Analysis) is an excellent and relevant course for the MS in Data Science, especially for students focused on the efficiency and scalability of data-processing methods."
+  },
+  {
+  "instruction": "How many classes are typically taken by a graduate student per semester?",
+  "input": "get_info(courses = [], degree = \"MS_CS\")",
+  "output": "Graduate students generally take 3 courses per semester (F or S semester) to maintain full-time status and complete the degree in the standard time."
+  },
+  {
+  "instruction": "Is it possible to take DS 3010 and CS 4433 at the same time?",
+  "input": "get_info(courses = [\"DS 3010\", \"CS 4433\"], degree = \"\")",
+  "output": "Yes, it is possible to take DS 3010 (Computational Methods) and CS 4433 (Big Data Management and Analytics) concurrently. They are both advanced electives, and while the load is high, there are no strong sequencing dependencies between them."
+  },
+  {
+  "instruction": "I'm a BS in CS student. What is the difficulty of the HUA project?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The Humanities and Arts (HUA) project is equivalent in difficulty to 1 class and is typically completed alongside two other classes in a standard three-course term."
+  },
+  {
+  "instruction": "I am interested in taking CS 525. Does it occur in the Spring semester?",
+  "input": "get_info(courses = [\"CS 525\"], degree = \"MS_CS\")",
+  "output": "CS 525 is a specialized course that is most often offered in the Spring (S) semester, but like all specialized electives, its offering term can change, so always check the official schedule."
+  },
+  {
+  "instruction": "Is CS 3013 a prerequisite for CS 4120?",
+  "input": "get_info(courses = [\"CS 3013\", \"CS 4120\"], degree = \"BS_CS\")",
+  "output": "CS 3013 (Operating Systems) is not a prerequisite for CS 4120 (Analysis Of Algorithms)."
+  },
+  {
+  "instruction": "What are the minimum requirements to start the MQP?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The minimum requirement to begin the Major Qualifying Project (MQP) is typically junior year standing and having completed most of the foundational 1000 and 2000-level courses for your major (Data Science)."
+  },
+  {
+  "instruction": "Is it reasonable to take ID 2050 and CS 3043 in C-term?",
+  "input": "get_info(courses = [\"ID 2050\", \"CS 3043\"], degree = \"\")",
+  "output": "Yes, taking ID 2050 (IQP Prep) and CS 3043 (Social Implications Of Information Processing) along with one other class is a reasonable course load for a C-term. Remember, you cannot overload while taking ID 2050."
+  },
+  {
+  "instruction": "What is the primary focus of the IQP?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The IQP's primary focus is on integrating technical thinking with social science problems to understand how technology impacts society and to propose solutions for real-world issues."
+  },
+  {
+  "instruction": "What are the project requirements for a BS in Computer Science?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The project requirements for a BS in Computer Science are the HUA project, the IQP (Interactive Qualifying Project), and the MQP (Major Qualifying Project)."
+  },
+  {
+  "instruction": "What courses should I take before CS 4404?",
+  "input": "get_info(courses = [\"CS 4404\"], degree = \"BS_CS\")",
+  "output": "CS 4404 (Network Security) strongly recommends a background in both CS 3516 (Foundations of Computer Networks) and CS 3013 (Operating Systems) due to the need to understand network protocols and low-level programming concepts."
+  },
+  {
+  "instruction": "I'm a BS+MS student. Can I take 500-level courses as an undergraduate?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "Yes, one of the key benefits of the BS+MS program is the ability to take 500-level (graduate) courses during your undergraduate years, which can often be double-counted toward both your bachelor's and master's degrees."
+  },
+  {
+  "instruction": "When should I take DS 3010 if I'm a BS in DS major?",
+  "input": "get_info(courses = [\"DS 3010\"], degree = \"BS_DS\")",
+  "output": "DS 3010: Computational Methods is a challenging course and is best taken in your junior or senior year, after you have completed introductory probability and programming courses."
+  },
+  {
+  "instruction": "What's the best order for CS 3516 and CS 4404?",
+  "input": "get_info(courses = [\"CS 3516\", \"CS 4404\"], degree = \"\")",
+  "output": "The best order is CS 3516 (Computer Networks) then CS 4404 (Tools And Techniques In Computer Network Security), as 4731 builds directly on the network concepts."
+  },
+  {
+  "instruction": "Is CS 584 a prerequisite for MA 543?",
+  "input": "get_info(courses = [\"CS 584\", \"MA 543\"], degree = \"\")",
+  "output": "CS 502 (Algorithms: Design And Analysis) is not a prerequisite for MA 543 (Statistical Methods for Machine Learning). MA 543 focuses more on statistical and probabilistic foundations than algorithmic complexity."
+  },
+  {
+  "instruction": "What is the HUA project focused on?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The HUA (Humanities and Arts) project is a research paper or practicum focused on a topic within your chosen HUA depth department."
+  },
+  {
+  "instruction": "What is the standard time to complete the BS in CS degree?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The standard time to complete the Bachelor of Science (BS) in Computer Science degree is 4 years (eight semesters/12 terms)."
+  },
+  {
+  "instruction": "Can I take ID 2050 in D-term?",
+  "input": "get_info(courses = [\"ID 2050\"], degree = \"\")",
+  "output": "Yes, you can take ID 2050 (IQP Prep) in D-term. This would mean you would be eligible to complete your one-term, full-time IQP in the following A-term of the next academic year."
+  },
+  {
+  "instruction": "How many courses can a graduate student overload to take in one semester?",
+  "input": "get_info(courses = [], degree = \"MS_CS\")",
+  "output": "A graduate student can overload to take a maximum of 4 courses in one semester, though this is only recommended if they are confident in managing the heavy workload."
+  },
+  {
+  "instruction": "Is it reasonable to take CS 4342 and DS 4635 in the same term?",
+  "input": "get_info(courses = [\"CS 4342\", \"DS 4035\"], degree = \"\")",
+  "output": "Taking CS 4342 (Machine Learning) and DS 4635 (Data Analytics And Statistical Learning) in the same term is redundant. They cover very similar material; you should take one or the other, or look into a 500-level alternative if you are in the BS+MS program."
+  },
+  {
+  "instruction": "I'm interested in theory. What courses should I take after CS 2022?",
+  "input": "get_info(courses = [\"CS 2022\"], degree = \"BS_CS\")",
+  "output": "After CS 2022 (Discrete Mathematics), students interested in theory should focus on CS 3133 (Foundations of Computer Science) and CS 4120 (Analysis of Algorithms)."
+  },
+  {
+  "instruction": "Can I take DS 502 and DS 501 in the Fall semester?",
+  "input": "get_info(courses = [\"DS 502\", \"DS 501\"], degree = \"\")",
+  "output": "It is likely possible to take DS 502 (Statistical Methods for Machine Learning) and DS 501 (Introduction To Data Science) in the Fall (F) semester, as these are foundational graduate courses and are often scheduled to accommodate new students."
+  },
+  {
+  "instruction": "What's the course ID for the IQP prep class?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The course ID for the required IQP preparation class, for students completing the IQP in one term, is ID 2050."
+  },
+  {
+  "instruction": "Is CS 503 offered in the Fall or Spring?",
+  "input": "get_info(courses = [\"CS 503\"], degree = \"MS_CS\")",
+  "output": "CS 503: Foundations of Computer Science is a core theoretical graduate course and is usually offered in the Spring (S) semester."
+  },
+  {
+  "instruction": "What is the typical time frame to complete the MS in Computer Science?",
+  "input": "get_info(courses = [], degree = \"MS_CS\")",
+  "output": "The typical time frame for a full-time student to complete the Master of Science (MS) in Computer Science is 2 years (four full semesters)."
+  },
+  {
+  "instruction": "What courses are recommended before CS 4342?",
+  "input": "get_info(courses = [\"CS 4342\"], degree = \"BS_CS\")",
+  "output": "CS 4342 (Machine Learning) has no formal prerequisites, but it is strongly recommended that you have understand multivariate calculus (MA 1024), linear algebra (MA 2071), probability (MA 2621), and algorithms (CS 2223)."
+  },
+  {
+  "instruction": "I'm a BS in Data Science major. Is a thesis an option for my MQP?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The Major Qualifying Project (MQP) is a research project, and while it is a substantial paper, it is generally not the same as a formal thesis; however, it can often serve as a basis for a thesis if you continue into the MS program."
+  },
+  {
+  "instruction": "In what order should I take CS 2303 and CS 3013?",
+  "input": "get_info(courses = [\"CS 2303\", \"CS 3013\"], degree = \"BS_CS\")",
+  "output": "The optimal order is: CS 2303 (Systems Programming), which is foundational for systems-level programming. Then CS 3013 (Operating Systems), which builds on 2303 concepts."
+  },
+  {
+  "instruction": "When does DS 2010 occur?",
+  "input": "get_info(courses = [\"DS 2010\"], degree = \"BS_DS\")",
+  "output": "DS 2010: Data Science II: Statistical Modeling and Analysis is a core sophomore course. It is usually offered in B term, C term, and D term to ensure all students can take it early in their curriculum."
+  },
+  {
+  "instruction": "Is taking ID 2050 and CS 4801 at the same time a good idea?",
+  "input": "get_info(courses = [\"ID 2050\", \"CS 4801\"], degree = \"BS_CS\")",
+  "output": "ID 2050 (IQP Prep) is known to be challenging and demands significant time. Pairing it with a high-level, project-heavy course like CS 4801 (Cryptography) plus your third course is a very heavy load and not generally recommended. You'd be better off pairing ID 2050 with lighter courses."
+  },
+  {
+  "instruction": "What is the HUA requirement for a student's breadth?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The HUA breadth requirement is one course from an HUA department different from your chosen HUA depth department."
+  },
+  {
+  "instruction": "Is CS 548 a prerequisite for DS 502?",
+  "input": "get_info(courses = [\"CS 548\", \"DS 502\"], degree = \"MS_DS\")",
+  "output": "No, CS 548 (Knowledge Discovery And Data Mining) is not a prerequisite for DS 502 (Statistical Methods For Data Science). In fact, a good understanding of statistics (DS 504) would be beneficial before taking Data Mining."
+  },
+  {
+  "instruction": "I'm a BS in Data Science student. Is it reasonable to take 4 classes during my C-term?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Yes, it is possible and reasonable for a WPI undergraduate to take 4 classes (overload) in C-term. However, you should evaluate the workload, especially if you have other project work (like the MQP or HUA) or if any of those 4 classes are known to be particularly demanding."
+  },
+  {
+  "instruction": "What is the focus of the IQP research?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The IQP research focuses on socially relevant, non-technical problems and the application of technical and critical thinking to address them."
+  },
+  {
+  "instruction": "I'm in the BS+MS in CS program. Do I need to complete the MQP?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "Yes, you must complete the Major Qualifying Project (MQP) as it is a requirement for the Bachelor of Science portion of your combined degree. Your MQP will likely be more advanced to align with the MS track."
+  },
+  {
+  "instruction": "When should I take CS 2303?",
+  "input": "get_info(courses = [\"CS 2303\"], degree = \"BS_CS\")",
+  "output": "CS 2303: Systems Programming should be taken in the sophomore year. It is essential for most upper-level CS electives, making it a priority to complete it early."
+  },
+  {
+  "instruction": "Is it possible to complete the MQP in A-term?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, it is possible to complete the one-term, intensive Major Qualifying Project (MQP) in A-term, provided you have a secured project and a committed sponsor."
+  },
+  {
+  "instruction": "What are the required projects for the BS in Data Science degree?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The three required projects are the HUA, IQP, and MQP."
+  },
+  {
+  "instruction": "What is the recommended background for CS 534?",
+  "input": "get_info(courses = [\"CS 534\"], degree = \"MS_CS\")",
+  "output": "CS 534: Artificial Intelligence recommends having a strong foundation in probability, statistics, and programming."
+  },
+  {
+  "instruction": "I'm a MS in Data Science student. How many courses are required for my degree?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "The MS in Data Science typically requires 10 courses (30 credits) for the non-thesis option, or 7 courses plus 9 thesis credits for the thesis option. Check the specific program handbook for details."
+  },
+  {
+  "instruction": "What is the general difficulty of the MQP?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The MQP (Major Qualifying Project) is the most substantial project, generally equivalent in difficulty to 3 or 4 courses, especially when completed in a single term."
+  },
+  {
+  "instruction": "Is CS 4516 offered in D-term?",
+  "input": "get_info(courses = [\"CS 4516\"], degree = \"BS_CS\")",
+  "output": "CS 4516: Advanced Computer Networks is an elective that is normally offered in A-term, but it is one of the more rotating electives, so confirm the yearly schedule."
+  },
+  {
+  "instruction": "What is the HUA requirement for a student's general elective?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The HUA general elective requirement is one additional HUA course that can be in any HUA department, including your depth or breadth department."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it reasonable to take 2 courses in the Spring semester?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Taking 2 courses in the S (Spring) semester is reasonable but only for part-time enrollment. If you are a full-time student, you are expected to take 3 courses unless you are working on a thesis or have advisor approval to take a lighter load."
+  },
+  {
+  "instruction": "When does ID 2050 occur?",
+  "input": "get_info(courses = [\"ID 2050\"], degree = \"BS_DS\")",
+  "output": "ID 2050 (IQP Prep) is typically offered in A, B, C, and D terms to allow students to complete their one-term IQP in the following term (B, C, D, and A, respectively)."
+  },
+  {
+  "instruction": "I'm in the BS+MS in CS. Can I finish in less than 5 years?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "Finishing the BS+MS in CS in less than 5 years is extremely rare and would require a significant amount of credit coming into WPI (AP/transfer credits) and continuous overloading. It is designed as a 5-year program."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the advanced algorithms course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate course number for the advanced algorithms course is typically CS 4120 (Analysis Of Algorithms) or similar, though the core algorithms is often covered in CS 2223."
+  },
+  {
+  "instruction": "I'm a BS in DS major. Can I take a multiple-term IQP?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Yes, you have the option to complete the Interactive Qualifying Project (IQP) over multiple, generally three, terms. In this case, you do not take ID 2050."
+  },
+  {
+  "instruction": "What is the difference between a one-term and multi-term MQP?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "A one-term MQP is an intensive, full-load project (3-4 courses worth). A multi-term MQP is completed over several terms (typically 2 or 3), with the workload spread out, allowing you to take other courses simultaneously."
+  },
+  {
+  "instruction": "How many HUA courses do I need in total?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "You need to complete 5 HUA courses in total: 3 in your depth, 1 in your breadth, and 1 general HUA elective, before you can begin the HUA project."
+  },
+  {
+  "instruction": "What's the course ID for the graduate-level database course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The course ID for the graduate-level database management course is typically CS 542 (Database Management Systems)."
+  },
+  {
+  "instruction": "When should a BS in CS student take their IQP?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The IQP is typically completed during the junior year (third year), or sometimes during the following summer, during a single term off-campus."
+  },
+  {
+  "instruction": "What is the difference between A term and B term?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Both A term and B term are seven-week undergraduate terms (A term is the first half of the Fall semester, B term is the second half), and students typically take 3 courses in each."
+  },
+  {
+  "instruction": "Is the MQP required for the MS in CS degree?",
+  "input": "get_info(courses = [], degree = \"MS_CS\")",
+  "output": "No, the Major Qualifying Project (MQP) is a requirement for the undergraduate Bachelor of Science degree. It is not required for a standalone MS in Computer Science."
+  },
+  {
+  "instruction": "When is the MQP typically completed for a BS in CS student?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The MQP is generally completed in the senior year (fourth year), either spread over two or three terms, or in an intensive single term."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the introductory programming course?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The main introductory programming course is CS 1101 (Introduction to Program Design)."
+  },
+  {
+  "instruction": "I'm taking the multi-term IQP. How many classes can I take per term?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "If you are taking the multi-term IQP (split over 3 terms), the IQP portion is equivalent to 1 class per term, so you would take 2 other classes for a standard load of 3 courses per term."
+  },
+  {
+  "instruction": "What is the MQP for a Data Science major typically focused on?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The MQP for a Data Science major is typically focused on applying advanced data analysis, statistical modeling, or machine learning techniques to a substantial, real-world data problem."
+  },
+  {
+  "instruction": "How long are the undergraduate terms (A, B, C, D)?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "Each of the four undergraduate terms (A, B, C, and D) is approximately seven weeks long."
+  },
+  {
+  "instruction": "I'm a BS in CS student. Can I take more than one 4000-level course in a single term?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "Yes, it is common and encouraged for BS in CS students in their junior/senior years to take two or even three 4000-level courses in a single term, provided you manage the cumulative project workload."
+  },
+  {
+  "instruction": "I'm doing a multiple-term MQP. Is it allowed to take 4 classes in C-term?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Yes, if you are doing a multiple-term MQP, the MQP portion is a lighter load, and you are allowed to overload and take 4 course units (3 classes + MQP portion) in C-term."
+  },
+  {
+  "instruction": "When is the best time to take the HUA project?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The best time to take the HUA project is typically in your sophomore or junior year, after you have completed all 5 of your preparatory HUA courses, often in a term with a lighter technical course load."
+  },
+  {
+  "instruction": "Is the MS in DS generally completed faster than the BS+MS in DS?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "Yes, the standalone MS in Data Science is generally completed in 2 years, which is faster than the combined BS+MS in DS program that typically takes 5 years total."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it reasonable to take 4 courses and work on a thesis in one semester?",
+  "input": "get_info(courses = [], degree = \"MS_CS\")",
+  "output": "No, taking 4 courses and working on a thesis simultaneously is extremely heavy and highly unreasonable. A thesis typically substitutes for 1-2 courses, so a more reasonable load would be 2-3 courses plus the thesis work."
+  },
+  {
+  "instruction": "What is the primary difference in course level between BS and MS in CS?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "The BS focuses on 1000-4000 level courses, while the MS focuses on 500-level and higher graduate courses. The BS+MS combines both, allowing for an early start on the 500-level material."
+  },
+  {
+  "instruction": "What are the terms in the graduate academic schedule?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The graduate academic schedule is divided into the F (Fall) semester and the S (Spring) semester."
+  },
+  {
+  "instruction": "What is the HUA requirement that is in a different department?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The HUA requirement that is in a different department is the 'breadth' requirement, which is a single course in an HUA department separate from your 'depth'."
+  },
+  {
+  "instruction": "I'm a BS in DS student. When should I take my IQP?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Most BS in Data Science students complete their Interactive Qualifying Project (IQP) during their junior year (third year), often during a dedicated term off-campus or on-campus."
+  },
+  {
+  "instruction": "What is the typical time frame to complete the MS in Data Science?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "The typical time frame for the Master of Science in Data Science is 2 years."
+  },
+  {
+  "instruction": "I'm a BS in CS major. Can I take a multiple-term MQP?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "Yes, the Major Qualifying Project (MQP) is typically completed over multiple terms (usually 2 or 3) by BS in CS students, which is the less intensive option compared to the one-term MQP."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the data structures and algorithms course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate course number for the core data structures and algorithms course is typically CS 2223 (Algorithms)."
+  },
+  {
+  "instruction": "When is the MQP typically completed for a BS in Data Science student?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The MQP for a BS in Data Science student is generally completed in the senior year (fourth year), either in a single term or spread across multiple terms."
+  },
+  {
+  "instruction": "I'm a BS in CS major. Is it possible to take 4 classes during my C-term?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "Yes, it is possible to overload and take 4 classes in C-term, provided you can handle the intensity of the compressed seven-week term and the overall project workload."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it reasonable to take 4 courses in the S semester?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, it is possible to overload and take 4 courses in the S (Spring) semester, but the workload is significantly increased from the standard 3-course load."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the intro to data science course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate course number for the introductory data science course is DS 1010 (Introduction to Data Science)."
+  },
+  {
+  "instruction": "What are the terms in the undergraduate academic schedule?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate academic schedule is divided into four seven-week terms: A term, B term, C term, and D term."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it reasonable to take 3 courses and work on a thesis in one semester?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "No, taking 3 courses and working on a thesis (equivalent to 1-2 course units) is a very heavy and generally unadvised workload. A thesis typically replaces 1-2 course units for that semester."
+  },
+  {
+  "instruction": "Can I take CS 4342 and my HUA project in the same term?",
+  "input": "get_info(courses = [\"CS 4342\"], degree = \"\")",
+  "output": "Yes, taking CS 4342 (Machine Learning) and the HUA project (equivalent to 1 class) along with one other class is a reasonable, standard course load of 3 course units for a term."
+  },
+  {
+  "instruction": "What is the HUA requirement for a student's depth?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The HUA 'depth' requirement is 3 courses within a single Humanities and Arts department that you choose for your specialization."
+  },
+  {
+  "instruction": "I'm interested in the BS+MS in Data Science. Do I need to complete the IQP?",
+  "input": "get_info(courses = [], degree = \"BS+MS_DS\")",
+  "output": "Yes, the Interactive Qualifying Project (IQP) is a requirement for the Bachelor of Science portion of the combined BS+MS in Data Science degree."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the software engineering course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate course number for the software engineering course is CS 3733 (Software Engineering)."
+  },
+  {
+  "instruction": "I'm a BS in CS major. Is it possible to take 4 classes and my HUA in the same term?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, if you get permission from your advisor. Taking 4 classes and the HUA project (which is equivalent to 1 class) would be a load of 5 course units, which is a significant overload and highly discouraged due to the demanding nature of WPI's terms."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it possible to take 4 courses in the F semester?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, it is possible to overload and take 4 courses in the F (Fall) semester, but this is a very heavy workload and should only be considered if you have a strong academic record."
+  },
+  {
+  "instruction": "I'm a BS+MS student. When should I complete my IQP?",
+  "input": "get_info(courses = [], degree = \"BS+MS_CS\")",
+  "output": "As a BS+MS student, you should complete your Interactive Qualifying Project (IQP) during your junior year (third year), just like a standard BS student, before starting the heavy graduate-level coursework."
+  },
+  {
+  "instruction": "I'm a BS in Data Science major. Is it possible to take 4 classes during my D-term?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "Yes, it is possible to overload and take 4 classes in D-term. However, D-term is the final term of the academic year, and the project workload can be intense, so consider this carefully."
+  },
+  {
+  "instruction": "I'm a BS in CS student. When should I take my MQP?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The Major Qualifying Project (MQP) should be completed during your senior year (fourth year). The most common plan is a multi-term MQP starting in A or B term of the senior year."
+  },
+  {
+  "instruction": "I'm interested in the BS in Data Science. How long is that program?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The Bachelor of Science (BS) in Data Science program is generally completed in 4 years."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it possible to complete a thesis for my degree?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Yes, both the MS in CS and MS in DS offer a thesis option, which requires fewer courses and the completion of a substantial research paper under a faculty advisor."
+  },
+  {
+  "instruction": "What is the MQP for a CS major typically focused on?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The MQP for a Computer Science major is typically focused on advanced application or research in a specialization area like security, AI, systems, or software engineering."
+  },
+  {
+  "instruction": "I'm interested in the BS in Computer Science. How long is that program?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "The Bachelor of Science (BS) in Computer Science program is generally completed in 4 years."
+  },
+  {
+  "instruction": "What are the terms in the undergraduate academic schedule?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate academic schedule is divided into four seven-week terms: A term, B term, C term, and D term."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the introductory machine learning course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate course number for the introductory machine learning course is typically CS 4342 (Machine Learning)."
+  },
+  {
+  "instruction": "I'm a graduate student. Is it reasonable to take 3 courses in the Fall semester?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "Yes, taking 3 courses in the Fall (F) semester is the standard, full-time course load and is perfectly reasonable for an MS in Data Science student."
+  },
+  {
+  "instruction": "When should I take CS 3516?",
+  "input": "get_info(courses = [\"CS 3516\"], degree = \"BS_CS\")",
+  "output": "CS 3516: Computer Networks is best taken in your junior year (third year), as it requires foundational knowledge from 2000-level courses like CS 2303."
+  },
+  {
+  "instruction": "Is CS 4241 a prerequisite for any other course?",
+  "input": "get_info(courses = [\"CS 4241\"], degree = \"\")",
+  "output": "CS 4241 (Webware) is generally an end-of-sequence elective and is not a formal prerequisite for any other required CS courses. It serves as recommended background for advanced web/UI topics."
+  },
+  {
+  "instruction": "What are the recommended background courses for DS 548?",
+  "input": "get_info(courses = [\"DS 548\"], degree = \"\")",
+  "output": "DS 548 (Knowledge Discovery And Data Mining) recommends a strong background in artificial intelligence, databases, and statistics, as well as a solid understanding of programming."
+  },
+  {
+  "instruction": "Is it possible to take CS 4801 and CS 4404 in the same term?",
+  "input": "get_info(courses = [\"CS 4801\", \"CS 4404\"], degree = \"\")",
+  "output": "Yes, taking CS 4801 (Cryptography) and CS 4404 (Network Security) in the same term is possible and reasonable for a student interested in cybersecurity. However, both are project-heavy, so be prepared for a focused workload."
+  },
+  {
+  "instruction": "Is CS 1101 a prerequisite for DS 1010?",
+  "input": "get_info(courses = [\"CS 1101\", \"DS 1010\"], degree = \"\")",
+  "output": "CS 1101 (Introduction to Program Design) is not a formal prerequisite for DS 1010 (Introduction to Data Science), but having prior programming experience from CS 1101 would be a very helpful for DS 1010."
+  },
+  {
+  "instruction": "Is it possible to take CS 502 and CS 534 in the same semester?",
+  "input": "get_info(courses = [\"CS 502\", \"CS 534\"], degree = \"MS_CS\")",
+  "output": "Yes, taking CS 502 (Operating Systems) and CS 534 (AI) in the same semester is a challenging but manageable workload for an MS in CS student, often done in the first year."
+  },
+  {
+  "instruction": "What courses are recommended before taking CS 3733?",
+  "input": "get_info(courses = [\"CS 3733\"], degree = \"\")",
+  "output": "CS 3733 (Software Engineering) is recommended to be taken after you have completed foundational programming courses like CS 2102 (Object-Oriented Design) and have experience with multi-file project structures."
+  },
+  {
+  "instruction": "Is MA 4644 offered in the A term?",
+  "input": "get_info(courses = [\"MA 4644\"], degree = \"\")",
+  "output": "MA 4644: Introduction to Time Series Analysis is a specialized elective that could be offered in A term, but is generally scheduled in D term."
+  },
+  {
+  "instruction": "I'm interested in the theory of computation. What course should I take after CS 3133?",
+  "input": "get_info(courses = [\"CS 3133\"], degree = \"BS_CS\")",
+  "output": "After CS 3133 (Foundations of CS), a student interested in theory should consider CS 4120 (Analysis Of Algorithms) or relevant 500-level courses like CS 503 (Foundations of CS) if in the BS+MS program."
+  },
+  {
+  "instruction": "Is CS 4801 a required course for the BS in CS?",
+  "input": "get_info(courses = [\"CS 4801\"], degree = \"BS_CS\")",
+  "output": "No, CS 4801 (Cryptography and Security) is an elective and is not a core required course for the Bachelor of Science in Computer Science."
+  },
+  {
+  "instruction": "Is there a course that combines CS and DS topics?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "Courses like CS 4342 (Machine Learning) and DS 4635 (Statistical Learning) are excellent examples of courses that heavily combine Computer Science and Data Science topics."
+  },
+  {
+  "instruction": "Can I take CS 4342 and my MQP in the same term?",
+  "input": "get_info(courses = [\"CS 4342\"], degree = \"BS_CS\")",
+  "output": "If you are doing a one-term, full-time MQP, then no, you cannot take CS 4342 (Machine Learning) in the same term. If you are doing a multi-term MQP, then yes, you can take CS 4342 along with the MQP portion."
+  },
+  {
+  "instruction": "What courses are recommended before taking CS 503?",
+  "input": "get_info(courses = [\"CS 503\"], degree = \"MS_CS\")",
+  "output": "CS 503 (Foundations of CS) is a highly theoretical course that recommends a very strong background in discrete mathematics, algorithms, and writing proofs."
+  },
+  {
+  "instruction": "Is it reasonable to take CS 548 and CS 585 in the same semester?",
+  "input": "get_info(courses = [\"CS 548\", \"CS 585\"], degree = \"MS_DS\")",
+  "output": "Yes, taking CS 548 (Data Mining) and CS 585 (Big Data Management) in the same semester is reasonable for a full-time MS in DS student. Both are data-focused and complement each other."
+  },
+  {
+  "instruction": "Is CS 4433 a good course for a BS in CS student interested in distributed systems?",
+  "input": "get_info(courses = [\"CS 4433\"], degree = \"BS_CS\")",
+  "output": "Yes, CS 4433 (Big Data Management) covers distributed frameworks (like Hadoop/Spark) and is an excellent elective for a BS in CS student interested in large-scale distributed systems and computing."
+  },
+  {
+  "instruction": "When should I take DS 3010?",
+  "input": "get_info(courses = [\"DS 3010\"], degree = \"BS_DS\")",
+  "output": "DS 3010: Computational Methods is a core course best taken in your junior or senior year, after foundational programming and data structures are complete."
+  },
+  {
+  "instruction": "Is CS 4731 offered in C-term?",
+  "input": "get_info(courses = [\"CS 4731\"], degree = \"\")",
+  "output": "CS 4731: Computer Graphics is a highly popular elective that is generally offered in the C-term every year."
+  },
+  {
+  "instruction": "How many courses should a first-year BS in CS student take in A-term?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "A first-year BS in CS student should take the standard load of 3 courses in A-term. Overloading is not recommended in the first term as you adjust to WPI's fast-paced seven-week schedule."
+  },
+  {
+  "instruction": "I'm a BS in Data Science major. In what order should I take DS 1010, DS 2010, and DS 3010?",
+  "input": "get_info(courses = [\"DS 1010\", \"DS 2010\", \"DS 3010\"], degree = \"BS_DS\")",
+  "output": "The sequence should be: DS 1010 (Intro to Data Science) in the first year, then DS 2010 (Statistical Modeling and Analysis) in the sophomore year, followed by DS 3030 (Computational Methods) in the junior or senior year."
+  },
+  {
+  "instruction": "What are the recommended background courses for CS 542?",
+  "input": "get_info(courses = [\"CS 542\"], degree = \"\")",
+  "output": "CS 542 (Database Management Systems) recommends a strong background in data structures and algorithms (CS 5084) and proficiency in a programming in a language like Java or Python."
+  },
+  {
+  "instruction": "What course should I take if I am interested in cybersecurity?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "You should start with foundational systems courses like CS 2303 (Systems Programming) and CS 3013 (Operating Systems), then move on to specialized electives like CS 4801 (Cryptography) and CS 4404 (Network Security)."
+  },
+  {
+  "instruction": "What courses should I take before CS 4404?",
+  "input": "get_info(courses = [\"CS 4404\"], degree = \"\")",
+  "output": "CS 4404 (Network Security) requires a strong background in CS 3516 (Computer Networks) and CS 3013 (Operating Systems)."
+  },
+  {
+  "instruction": "What is the difficulty of a multi-term MQP per term?",
+  "input": "get_info(courses = [], degree = \"BS_CS\")",
+  "output": "When the MQP is completed over multiple terms (e.g., 3 terms), the workload per term is equivalent to approximately 1 class unit."
+  },
+  {
+  "instruction": "When should I take CS 2223 if I'm a BS in CS major?",
+  "input": "get_info(courses = [\"CS 2223\"], degree = \"BS_CS\")",
+  "output": "CS 2223: Algorithms is a critical course and should be taken in the sophomore year, ideally right after foundational programming and discrete math."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the machine learning course?",
+  "input": "get_info(courses = [], degree = \"\")",
+  "output": "The undergraduate course number for the applied machine learning course is typically CS 4342."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the big data analytics course?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The undergraduate course number for the big data management and analytics course is typically CS 4433."
+  },
+  {
+  "instruction": "I'm a graduate student. What is the course number for the statistical methods course?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "The course number for the graduate-level statistical methods course is typically DS 502 (Statistical Methods for Data Science)."
+  },
+  {
+  "instruction": "I'm a graduate student. What is the course number for the advanced data mining course?",
+  "input": "get_info(courses = [], degree = \"MS_DS\")",
+  "output": "The course number for the graduate-level advanced data mining course is typically CS 548 (Knowledge Discovery And Data Mining)."
+  },
+  {
+  "instruction": "What is the undergraduate course number for the time series analysis course?",
+  "input": "get_info(courses = [], degree = \"BS_DS\")",
+  "output": "The undergraduate course number for the time series analysis course is MA 4644 (Intro to Time Series Analysis)."
+  },
+  {
+  "instruction": "Can I take DS 4635 and my MQP in the same term?",
+  "input": "get_info(courses = [\"DS 4635\"], degree = \"BS_DS\")",
+  "output": "If you are doing a multi-term MQP, yes, you can take DS 4635 (Data Analytics And Statistical Learning) along with the MQP portion. If you are doing a one-term MQP, you cannot take any other classes."
+  },
+  {
+  "instruction": "What are the recommended background courses for CS 503?",
+  "input": "get_info(courses = [\"CS 503\"], degree = \"MS_CS\")",
+  "output": "CS 503 (Foundations of CS) recommends a strong background in discrete mathematics and undergraduate algorithms for mathematical and logical maturity."
+  }
+]
