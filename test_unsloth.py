@@ -14,7 +14,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
 
 FastLanguageModel.for_inference(model)
 
-prompt = "Hello, could you briefly explain quantum computing?"
+prompt = "Hello, could you briefly explain photosynthesis?"
 inputs = tokenizer([prompt], return_tensors="pt").to("cuda")
 
 outputs = model.generate(**inputs, max_new_tokens=64)

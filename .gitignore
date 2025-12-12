@@ -1,3 +1,11 @@
 .vscode
+/__pycache__
+/json_data/__pycache__
 /local_models
 /unsloth_compiled_cache
+/llama.cpp
+/outputs
+/wpi-advisor-70b
+wpi-advisor-final.gguf
+live_inference_graph.png
+test.txt

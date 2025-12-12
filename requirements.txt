@@ -1,0 +1,7 @@
+huggingface_hub==0.34.0
+llama-cpp-python
+unsloth
+torch
+scikit-learn
+numpy
+matplotlib

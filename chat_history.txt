@@ -1,0 +1,125 @@
+Student: What is the recommended background knowledge for CS4341?
+
+Model Response: The recommended background for CS 4341: Introduction to Artificial Intelligence is CS 2102 or CS 2103, CS 2223, and CS 3133.
+
+[System] Confidence Score: -0.2017
+[Graph] Need at least 3 queries to generate PCA graph.
+
+Student: Does CS4341 relate at all to CS4342?
+
+Model Response: CS 4341 (Introductory AI) is a useful foundation for CS 4342 (Machine Learning), but they are separate courses and CS 4342 is not a direct sequel.
+
+[System] Confidence Score: -0.6866
+[Graph] Need at least 3 queries to generate PCA graph.
+
+Student: Based on the course description for CS4342, do you think that neural networks will be taught?
+
+Model Response: Yes, neural networks are explicitly mentioned as one of the topics covered in CS4342: Machine Learning.
+
+[System] Confidence Score: -0.5890
+Graph updated: 'live_inference_graph.png'
+
+Student: Do you know if CS4342 would be a good course to take for a BS in Computer Science or in Data Science?
+
+Model Response: CS 4342 (Machine Learning) is a great elective for the BS in CS, as it covers key concepts in AI. It is not a core course, but it counts toward the CS elective requirement.
+
+[System] Confidence Score: -0.8652
+Graph updated: 'live_inference_graph.png'
+
+Student: Would you be able to give some information about the BS Computer Science degree?
+
+Model Response: The BS in Computer Science is a 4-year, 18-course degree that provides a strong foundation in the core areas of computer science: systems, theory and languages, design, and social implications. The degree requires 18 courses in CS (3 must be the MQP), 7 in MA, 5 in science and engineering, 2 in the social sciences, 6 in the humanities, 4 in physical education and wellness, and 3 free electives.
+
+[System] Confidence Score: -0.4663
+Graph updated: 'live_inference_graph.png'
+
+Student: Do you know if ID2050 is a required course for the BS computer science program?
+
+Model Response: ID 2050 is a required course for the BS in Computer Science unless you complete your IQP on-campus over 3 terms.
+
+[System] Confidence Score: -0.5641
+Graph updated: 'live_inference_graph.png'
+
+Student: What is the course id2050?      
+
+Model Response: ID 2050: SOC SCI RES-IQP is the course ID for the Interactive Qualifying Project (IQP), which is a required, three-term, interdisciplinary project focused on the application of science and technology to societal problems.
+
+[System] Confidence Score: -0.5123
+Graph updated: 'live_inference_graph.png'
+
+Student: Are there many different professors that teach ID2050?
+
+Model Response: Yes, ID2050 (SOC SCI RES-IQP) is an IQP course that is taught by many different professors across various departments.
+
+[System] Confidence Score: -0.6650
+Graph updated: 'live_inference_graph.png'
+
+Student: How many professors (and if multiple, who are they) teach CS3013?
+
+Model Response: CS 3013 (Operating Systems) is offered by multiple professors, including Craig Shue, Craig Wills, and Mark Sheahan.
+
+[System] Confidence Score: -0.3423
+Graph updated: 'live_inference_graph.png'
+
+Student: Do you think that I could skip cs1101?
+
+Model Response: CS 1101 (Introduction to Program Design) is a fundamental course for the CS major and should not be skipped. It introduces students to the basics of programming, which is essential for advanced courses.
+
+[System] Confidence Score: -0.7762
+Graph updated: 'live_inference_graph.png'
+
+Student: who is the professor for CS4801?
+
+Model Response: The professor for CS4801 is Koksal Mus.
+
+[System] Confidence Score: -0.5224
+Graph updated: 'live_inference_graph.png'
+
+Student: Could you give a description of the BS data science degree program?
+
+Model Response: The BS in Data Science is an interdisciplinary degree that combines business, computer science, and statistical methods to analyze data and inform business decisions. The program requires 5 courses in the Mathematical Sciences department, 3 in the Computer Science department, 2 in the Business department, 11 disciplinary electives, and 3 for the Major Qualifying Project.
+
+[System] Confidence Score: -0.5437
+Graph updated: 'live_inference_graph.png'
+
+Student: Can I take graduate-level courses as an undergraduate, specifically for computer science?
+
+Model Response: Yes, WPI allows undergraduate students to take up to 3 graduate-level courses (500-level or higher) as long as you have a high enough GPA (3.0 or higher) and the course is relevant to your undergraduate program.
+
+[System] Confidence Score: -0.5251
+Graph updated: 'live_inference_graph.png'
+
+Student: Can I take a materials science course for the life science requirement for a BS in Computer Science?
+
+Model Response: No, you cannot take a materials science course for the life science portion of the BS in Computer Science requirement. You must take a life science course from BB, BI, BZ, EN/ES, EV.
+
+[System] Confidence Score: -0.4455
+Graph updated: 'live_inference_graph.png'
+
+Student: Who are the professors that teach BB1001?
+
+Model Response: BB 1001 is the IQP and is completed by students under the guidance of IQP advisors and sponsors.
+
+[System] Confidence Score: -1.1729
+Graph updated: 'live_inference_graph.png'
+
+Student: Who teaches CS4341?
+
+Model Response: CS4341: Introduction to Artificial Intelligence is taught by various faculty members, including Ethan Prihar, Chun-Kit Ngan, and Dachun Sun.
+
+[System] Confidence Score: -0.2490
+Graph updated: 'live_inference_graph.png'
+
+Student: What is IQP?
+
+Model Response: The IQP stands for the Interactive Qualifying Project, which is a required project for WPI's undergraduate students that addresses a real-world problem through applied research.
+
+[System] Confidence Score: -0.7978
+Graph updated: 'live_inference_graph.png'
+
+Student: out of cs3013 and cs4341, which would be more relevant to a career in cybersecurity?
+
+Model Response: CS 3013 (Operating Systems) is more relevant to a career in cybersecurity than CS 4341 (Introduction to Artificial Intelligence). You should consider taking CS 4342 (Machine Learning) instead of CS 4341 for a more applied cybersecurity course.
+
+[System] Confidence Score: -0.6082
+Graph updated: 'live_inference_graph.png'
