@@ -124,7 +124,7 @@ class AdvisorSystem:
 if __name__ == "__main__":
     advisor = AdvisorSystem(MODEL_PATH)
     
-    print("\n--- WPI AI Advisor Ready (Type 'quit' to exit) ---")
+    print("\n--- WPI AI Advisor Ready! (Type 'quit' to exit) ---")
     
     while True:
         user_input = input("\nStudent: ")

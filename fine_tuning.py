@@ -9,7 +9,7 @@ import os
 
 MODEL_NAME = "unsloth/Llama-3.3-70B-Instruct-bnb-4bit" # unsloth has over 1000 models to choose from on their huggingface page
 NEW_MODEL_NAME = "wpi-advisor-70b"
-MAX_SEQ_LENGTH = 4096  # adjust per computing hardware, 4096 fits comfortably on an NVIDIA H100
+MAX_SEQ_LENGTH = 4096  # 4096 fits comfortably on an NVIDIA H100
 DTYPE = None # auto-detect (float16 or bfloat16)
 LOAD_IN_4BIT = True
 
